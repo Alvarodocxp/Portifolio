@@ -457,6 +457,35 @@
   margin-top: 4px;
 }
 
+.about-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.about-actions .btn-primary,
+.about-actions .btn-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 12px 22px;
+  font-size: 0.9rem;
+}
+
+.about-actions .btn-primary svg,
+.about-actions .btn-secondary svg {
+  flex-shrink: 0;
+  transition: transform var(--transition-fast);
+}
+
+.about-actions .btn-primary:hover svg {
+  transform: translateY(2px);
+}
+
+.about-actions .btn-secondary:hover svg {
+  transform: scale(1.15);
+}
+
 .skills-grid {
   display: flex;
   flex-direction: column;
@@ -1019,6 +1048,10 @@
 
   .about-stats {
     grid-template-columns: 1fr;
+  }
+
+  .about-actions {
+    flex-direction: column;
   }
 
   .form-row {
