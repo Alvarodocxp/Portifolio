@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import TechMap from './components/TechMap';
+import AskModal from './components/AskModal';
 import './App.css';
 
 /* ================================================================
@@ -12,21 +14,29 @@ const content = {
       projects: 'Projetos',
       experience: 'Experiências',
       contact: 'Contato',
+      ask: 'Pergunte a Mim',
     },
     hero: {
-      badge: 'Aberto a novas oportunidades',
+      badge: 'Aberto a primeiro estágio em dev',
       greeting: 'Olá, eu sou',
       name: 'Álvaro Barbosa',
       subtitle:
-        'Estudante de Engenharia de Software na PUC Minas, com experiência em Java, Python e C# em projetos acadêmicos de desenvolvimento de soluções web e jogos.',
+        'Estudante de Engenharia de Software na PUC Minas (2º período), com experiência prática em Java, Python, C++ e C# aplicados em soluções web e jogos.',
       cta: 'Entre em Contato',
       ctaSecondary: 'Ver Projetos',
+      ask: 'Pergunte à IA',
     },
     about: {
       label: 'Sobre Mim',
       title: 'Quem sou eu',
-      p1: 'Sou estudante do 1º ano de Engenharia de Software na PUC Minas (Lourdes), apaixonado por resolver problemas através da tecnologia. Tenho experiência prática em Java, Python e C#, aplicados em projetos acadêmicos como desenvolvimento de soluções web, jogos e análises de mercado.',
-      p2: 'Busco um estágio em desenvolvimento de software onde possa aplicar o que estudo, aprender em um time real e crescer profissionalmente. No meu tempo livre, desenvolvo estratégias para o mercado financeiro e crio projetos pessoais — gosto de matemática, criar coisas e discutir ideias.',
+      p1: 'Sou estudante do 2º período de Engenharia de Software na PUC Minas (Campus Lourdes), com foco em desenvolvimento web, back-end e arquitetura de software. Tenho experiência prática em Java, Python, C++ e C#, desenvolvendo aplicações acadêmicas com CRUD completo, integração a bancos de dados e trabalho em equipe ágil com Git.',
+      p2: 'Busco meu primeiro estágio em desenvolvimento para contribuir com o time, aplicar meus conhecimentos técnicos e evoluir com profissionais experientes. Tenho disponibilidade para estagiar pela manhã ou à tarde e possuo CNH categoria B.',
+      highlights: {
+        education: '2º Período — PUC Minas (Lourdes)',
+        internship: 'Buscando 1º Estágio (Manhã ou Tarde)',
+        cnh: 'CNH B • Nova Lima / Alphaville',
+        languages: 'Inglês Avançado • Português Nativo',
+      },
       stats: {
         projects: 'Projetos',
         technologies: 'Tecnologias',
@@ -34,13 +44,11 @@ const content = {
       },
       downloadCv: 'Baixar Currículo (PDF)',
       viewCv: 'Visualizar Currículo',
+      askBtn: 'Perguntar ao Álvaro (IA)',
     },
     skills: {
-      languages: 'Linguagens',
-      webFrameworks: 'Web & Frameworks',
-      databases: 'Bancos de Dados',
-      tools: 'Ferramentas',
-      humanLang: 'Idiomas',
+      mapTitle: 'Arsenal de Tecnologias',
+      mapSub: 'Mapa dinâmico gerado via API de ícones',
     },
     projects: {
       label: 'Projetos',
@@ -82,21 +90,29 @@ const content = {
       projects: 'Projects',
       experience: 'Experience',
       contact: 'Contact',
+      ask: 'Ask Álvaro',
     },
     hero: {
-      badge: 'Open to new opportunities',
+      badge: 'Open to first internship',
       greeting: "Hi, I'm",
       name: 'Álvaro Barbosa',
       subtitle:
-        'Software Engineering student at PUC Minas with hands-on experience in Java, Python, and C# through academic projects in web development and game design.',
+        'Software Engineering student at PUC Minas (2nd semester), with hands-on experience in Java, Python, C++, and C# applied to web solutions and games.',
       cta: 'Get in Touch',
       ctaSecondary: 'View Projects',
+      ask: 'Ask AI',
     },
     about: {
       label: 'About Me',
       title: 'Who I am',
-      p1: "I'm a 1st-year Software Engineering student at PUC Minas (Lourdes campus), passionate about solving problems through technology. I have practical experience with Java, Python, and C# applied to academic projects such as web solutions, games, and market analysis.",
-      p2: "I'm looking for a software development internship where I can apply what I study, learn from a real team, and grow professionally. In my free time, I develop financial market strategies and create personal projects — I enjoy math, building things, and discussing ideas.",
+      p1: "I'm a 2nd-semester Software Engineering student at PUC Minas (Lourdes campus), focusing on web development, backend engineering, and software architecture. Practical experience with Java, Python, C++, and C# through full CRUD applications, database integration, and Git team workflows.",
+      p2: "I'm actively seeking my first software development internship to add value to the team and grow alongside senior developers. Available to intern in the morning or afternoon and hold a valid driver's license (CNH B).",
+      highlights: {
+        education: '2nd Semester — PUC Minas (Lourdes)',
+        internship: 'Seeking 1st Internship (Morning / Afternoon)',
+        cnh: 'Driver License (B) • Nova Lima / Alphaville',
+        languages: 'English (Advanced) • Portuguese (Native)',
+      },
       stats: {
         projects: 'Projects',
         technologies: 'Technologies',
@@ -104,13 +120,11 @@ const content = {
       },
       downloadCv: 'Download Resume (PDF)',
       viewCv: 'View Resume',
+      askBtn: 'Ask Álvaro (AI)',
     },
     skills: {
-      languages: 'Languages',
-      webFrameworks: 'Web & Frameworks',
-      databases: 'Databases',
-      tools: 'Tools',
-      humanLang: 'Spoken Languages',
+      mapTitle: 'Tech Stack Map',
+      mapSub: 'Dynamic map powered by icons API',
     },
     projects: {
       label: 'Projects',
@@ -243,11 +257,14 @@ const experienceData = [
 /* ================================================================
    COMPONENTE PRINCIPAL
    ================================================================ */
+const CURRENT_YEAR = new Date().getFullYear();
+
 function App() {
   const [lang, setLang] = useState('pt');
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [formStatus, setFormStatus] = useState(null); // null | 'sending' | 'success' | 'error'
+  const [isAskOpen, setIsAskOpen] = useState(false);
   const formRef = useRef(null);
   const t = content[lang];
 
@@ -318,6 +335,16 @@ function App() {
           <a href="#experiencias" onClick={() => scrollTo('experiencias')}>{t.nav.experience}</a>
           <a href="#contato" onClick={() => scrollTo('contato')}>{t.nav.contact}</a>
 
+          <button
+            className="ask-nav-btn"
+            onClick={() => {
+              handleNavClick();
+              setIsAskOpen(true);
+            }}
+          >
+            💬 {t.nav.ask}
+          </button>
+
           <div className="lang-toggle">
             <button className={`lang-btn${lang === 'pt' ? ' active' : ''}`} onClick={() => setLang('pt')}>PT</button>
             <button className={`lang-btn${lang === 'en' ? ' active' : ''}`} onClick={() => setLang('en')}>EN</button>
@@ -349,6 +376,9 @@ function App() {
               </button>
               <button className="btn-secondary" onClick={() => scrollTo('projetos')}>
                 📂 {t.hero.ctaSecondary}
+              </button>
+              <button className="btn-ask-hero" onClick={() => setIsAskOpen(true)}>
+                🤖 {t.hero.ask}
               </button>
             </div>
 
@@ -392,18 +422,23 @@ function App() {
               <p>{t.about.p1}</p>
               <p>{t.about.p2}</p>
 
-              <div className="about-stats">
-                <div className="stat-card">
-                  <div className="stat-number">4+</div>
-                  <div className="stat-label">{t.about.stats.projects}</div>
+              {/* Destaques rápidos extraídos do Currículo */}
+              <div className="about-highlights-grid">
+                <div className="about-highlight-pill">
+                  <span className="about-pill-icon">🎓</span>
+                  <span>{t.about.highlights.education}</span>
                 </div>
-                <div className="stat-card">
-                  <div className="stat-number">8+</div>
-                  <div className="stat-label">{t.about.stats.technologies}</div>
+                <div className="about-highlight-pill">
+                  <span className="about-pill-icon">💼</span>
+                  <span>{t.about.highlights.internship}</span>
                 </div>
-                <div className="stat-card">
-                  <div className="stat-number">2</div>
-                  <div className="stat-label">{t.about.stats.languages}</div>
+                <div className="about-highlight-pill">
+                  <span className="about-pill-icon">🚗</span>
+                  <span>{t.about.highlights.cnh}</span>
+                </div>
+                <div className="about-highlight-pill">
+                  <span className="about-pill-icon">🌐</span>
+                  <span>{t.about.highlights.languages}</span>
                 </div>
               </div>
 
@@ -432,49 +467,18 @@ function App() {
                   </svg>
                   {t.about.viewCv}
                 </a>
+                <button
+                  className="btn-ask-about"
+                  onClick={() => setIsAskOpen(true)}
+                >
+                  🤖 {t.about.askBtn}
+                </button>
               </div>
             </div>
 
-            <div className="skills-grid fade-in">
-              <div className="skill-category">
-                <h3 className="skill-category-title">{t.skills.languages}</h3>
-                <div className="skill-tags">
-                  {['Java', 'Python', 'C#', 'JavaScript'].map((s) => (
-                    <span className="skill-tag" key={s}>{s}</span>
-                  ))}
-                </div>
-              </div>
-              <div className="skill-category">
-                <h3 className="skill-category-title">{t.skills.webFrameworks}</h3>
-                <div className="skill-tags">
-                  {['Spring Boot', 'Thymeleaf', 'React', 'HTML/CSS', 'Vite'].map((s) => (
-                    <span className="skill-tag" key={s}>{s}</span>
-                  ))}
-                </div>
-              </div>
-              <div className="skill-category">
-                <h3 className="skill-category-title">{t.skills.databases}</h3>
-                <div className="skill-tags">
-                  {['MySQL', 'PostgreSQL', 'SQL'].map((s) => (
-                    <span className="skill-tag" key={s}>{s}</span>
-                  ))}
-                </div>
-              </div>
-              <div className="skill-category">
-                <h3 className="skill-category-title">{t.skills.tools}</h3>
-                <div className="skill-tags">
-                  {['Git', 'GitHub', 'MQL5', 'Pygame', 'Lua'].map((s) => (
-                    <span className="skill-tag" key={s}>{s}</span>
-                  ))}
-                </div>
-              </div>
-              <div className="skill-category">
-                <h3 className="skill-category-title">{t.skills.humanLang}</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">{lang === 'pt' ? 'Português (nativo)' : 'Portuguese (native)'}</span>
-                  <span className="skill-tag">{lang === 'pt' ? 'Inglês (avançado)' : 'English (advanced)'}</span>
-                </div>
-              </div>
+            {/* Mapa de Ferramentas Simples & Direto via API */}
+            <div className="about-tech-side fade-in">
+              <TechMap lang={lang} />
             </div>
           </div>
         </div>
@@ -613,10 +617,38 @@ function App() {
             <a href="#contato" onClick={() => scrollTo('contato')}>{t.nav.contact}</a>
           </div>
           <p className="footer-copy">
-            © {new Date().getFullYear()} — {t.footer.copy} <span>Álvaro Barbosa</span>. {t.footer.rights}
+            © {CURRENT_YEAR} — {t.footer.copy} <span>Álvaro Barbosa</span>. {t.footer.rights}
           </p>
         </div>
       </footer>
+
+      {/* Botão Flutuante (FAB) do Ask Álvaro */}
+      <button
+        className="ask-floating-fab"
+        onClick={() => setIsAskOpen(true)}
+        aria-label="Abrir assistente virtual do Álvaro"
+      >
+        <img
+          src="https://github.com/Alvarodocxp.png"
+          alt="Álvaro"
+          className="ask-fab-avatar"
+        />
+        <div className="ask-fab-content">
+          <span className="ask-fab-title">
+            Ask Álvaro <span className="ask-fab-badge">IA</span>
+          </span>
+          <span className="ask-fab-sub">
+            {lang === 'pt' ? 'Tire dúvidas sobre mim' : 'Ask questions about me'}
+          </span>
+        </div>
+      </button>
+
+      {/* Modal do Assistente Virtual */}
+      <AskModal
+        isOpen={isAskOpen}
+        onClose={() => setIsAskOpen(false)}
+        lang={lang}
+      />
     </>
   );
 }
