@@ -1,65 +1,100 @@
 import { useState, useEffect, useRef } from 'react';
-import { ASK_KNOWLEDGE_BASE } from '../data/alvaroProfile';
+import { ASK_KNOWLEDGE_BASE, resolveSemanticAnswer } from '../data/alvaroProfile';
 import './AskModal.css';
 
+function AskIcon({ name, size = 18 }) {
+  const props = {
+    width: size,
+    height: size,
+    viewBox: '0 0 24 24',
+    fill: 'none',
+    stroke: 'currentColor',
+    strokeWidth: '2',
+    strokeLinecap: 'round',
+    strokeLinejoin: 'round',
+    'aria-hidden': 'true',
+  };
+
+  const icons = {
+    settings: (
+      <svg {...props}>
+        <path d="M12 15.5A3.5 3.5 0 1 0 12 8a3.5 3.5 0 0 0 0 7.5Z" />
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06A1.65 1.65 0 0 0 15 19.4a1.65 1.65 0 0 0-1 .6 1.65 1.65 0 0 0-.33 1.05V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 8.6 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-.6-1 1.65 1.65 0 0 0-1.05-.33H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 8.6a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-.6 1.65 1.65 0 0 0 .33-1.05V3a2 2 0 1 1 4 0v.09A1.65 1.65 0 0 0 15.4 4.6a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9c.43.2.78.52 1 .92.17.29.49.42.83.42H21a2 2 0 1 1 0 4h-.09A1.65 1.65 0 0 0 19.4 15Z" />
+      </svg>
+    ),
+    reset: (
+      <svg {...props}>
+        <path d="M3 12a9 9 0 1 0 3-6.7" />
+        <path d="M3 4v6h6" />
+      </svg>
+    ),
+    close: (
+      <svg {...props}>
+        <path d="M18 6 6 18" />
+        <path d="m6 6 12 12" />
+      </svg>
+    ),
+    send: (
+      <svg {...props}>
+        <path d="m22 2-7 20-4-9-9-4 20-7Z" />
+        <path d="M22 2 11 13" />
+      </svg>
+    ),
+  };
+
+  return icons[name] || icons.send;
+}
+
 export default function AskModal({ isOpen, onClose, lang = 'pt' }) {
-  const [messages, setMessages] = useState(() => [
-    {
-      sender: 'alvaro',
-      text:
-        lang === 'pt'
-          ? 'Olá! Sou o assistente virtual do Álvaro Barbosa. Me baseio 100% no currículo oficial dele (Engenharia de Software na PUC Minas, 2º período). O que você gostaria de saber sobre ele?'
-          : "Hi! I'm Álvaro Barbosa's virtual assistant, powered directly by his official resume (Software Engineering at PUC Minas, 2nd semester). What would you like to know about him?",
-    },
-  ]);
+  const initialMessage =
+    lang === 'pt'
+      ? 'Olá! Sou o assistente virtual do Álvaro Barbosa, treinado com informações do currículo dele. Pode perguntar sobre formação, tecnologias, projetos ou disponibilidade para estágio.'
+      : "Hi! I'm Álvaro Barbosa's virtual assistant, trained on his resume. Ask me about education, technologies, projects or internship availability.";
+
+  const [messages, setMessages] = useState(() => [{ sender: 'alvaro', text: initialMessage }]);
   const [inputValue, setInputValue] = useState('');
   const [isTyping, setIsTyping] = useState(false);
+  const [showConfig, setShowConfig] = useState(false);
+  const [apiKeyInput, setApiKeyInput] = useState(() => {
+    return localStorage.getItem('gemini_api_key') || import.meta.env.VITE_GEMINI_API_KEY || '';
+  });
+  const [activeKey, setActiveKey] = useState(() => {
+    return localStorage.getItem('gemini_api_key') || import.meta.env.VITE_GEMINI_API_KEY || '';
+  });
+
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
-
   const tBase = ASK_KNOWLEDGE_BASE[lang] || ASK_KNOWLEDGE_BASE.pt;
 
-  // Scroll automático para a última mensagem
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, isTyping]);
 
-  // Focar no input quando abrir
   useEffect(() => {
-    if (isOpen) {
-      setTimeout(() => inputRef.current?.focus(), 150);
-    }
+    if (isOpen) setTimeout(() => inputRef.current?.focus(), 150);
   }, [isOpen]);
 
-  // Lógica de busca de resposta na base de conhecimento
-  const findAnswer = (question) => {
-    const qLower = question
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '');
-
-    for (const item of tBase.respostas) {
-      const match = item.gatilhos.some((g) => {
-        const gNorm = g.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-        return qLower.includes(gNorm);
-      });
-      if (match) return item.resposta;
+  const handleSaveApiKey = () => {
+    const trimmed = apiKeyInput.trim();
+    if (trimmed) {
+      localStorage.setItem('gemini_api_key', trimmed);
+      setActiveKey(trimmed);
+    } else {
+      localStorage.removeItem('gemini_api_key');
+      setActiveKey(import.meta.env.VITE_GEMINI_API_KEY || '');
     }
-
-    return tBase.padrao;
+    setShowConfig(false);
   };
 
-  // Efeito de digitação suave (streaming simulado)
   const streamResponse = (fullText) => {
     setIsTyping(true);
     let index = 0;
-    const speed = 14; // ms por caractere
+    const speed = 12;
 
-    // Adiciona uma mensagem vazia que irá crescer
     setMessages((prev) => [...prev, { sender: 'alvaro', text: '' }]);
 
     const interval = setInterval(() => {
-      index += 2;
+      index += 3;
       setMessages((prev) => {
         const lastIndex = prev.length - 1;
         const updated = [...prev];
@@ -81,38 +116,54 @@ export default function AskModal({ isOpen, onClose, lang = 'pt' }) {
     const question = (textToSend || inputValue).trim();
     if (!question || isTyping) return;
 
-    // Adiciona a pergunta do usuário
     setMessages((prev) => [...prev, { sender: 'user', text: question }]);
     setInputValue('');
 
-    // Verifica se há chave de API do Gemini configurada em .env
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+    const keyToUse = activeKey.trim();
 
-    if (apiKey) {
+    if (keyToUse) {
       setIsTyping(true);
       try {
-        const prompt = `Você é o Álvaro Barbosa respondendo em primeira pessoa para quem visita seu portfólio.
-Base de conhecimento oficial do seu currículo:
-- Estudante de Engenharia de Software na PUC Minas (Campus Lourdes, 2º período, início Fev/2026, previsão Dez/2029).
-- Busca primeiro estágio em desenvolvimento de software. Disponibilidade: manhã ou à tarde. Possui CNH B.
-- Local: Nova Lima, Alphaville - MG. Contato: (31) 99694-6632, silvaalvarobf@gmail.com.
-- Linguagens: Java, Python, C++, C#, JavaScript.
-- Web & Frameworks: Spring Boot, Thymeleaf, React, HTML/CSS.
-- Bancos de dados: SQL (MySQL, PostgreSQL), NoSQL (MongoDB).
-- Ferramentas: Git/GitHub, MQL5.
-- Idiomas: Português nativo, Inglês avançado.
-- Experiências: CRUD integrado a bancos, desenvolvimento web em equipe com Git e sprints, jogos em Pygame/Lua e robôs de mercado em MQL5.
+        const conversationHistory = messages
+          .slice(-6)
+          .map((message) => `${message.sender === 'user' ? 'Visitante' : 'Álvaro'}: ${message.text}`)
+          .join('\n');
 
-Pergunta do visitante: "${question}".
-Responda de forma simpática, direta e profissional em primeira pessoa no idioma da pergunta.`;
+        const systemPrompt = `Você é o Álvaro Barbosa e responde em primeira pessoa para visitantes do seu portfólio.
+
+INFORMAÇÕES OFICIAIS:
+- Estudante de Engenharia de Software na PUC Minas, Campus Lourdes, atualmente no 2º período.
+- Início da graduação em fevereiro de 2026, previsão de conclusão em dezembro de 2029.
+- Ensino médio concluído no Colégio Batista em Alphaville em dezembro de 2025.
+- Mora em Nova Lima, Alphaville - MG.
+- Possui CNH categoria B.
+- Busca o primeiro estágio em desenvolvimento de software.
+- Disponibilidade pela manhã ou à tarde.
+- Linguagens: Java, Python, C++, C#, JavaScript e Lua.
+- Web e frameworks: Spring Boot, Thymeleaf, React, HTML5, CSS3 e Vite.
+- Bancos de dados: MySQL, PostgreSQL e MongoDB.
+- Ferramentas: Git/GitHub, MQL5 e VS Code.
+- Idiomas: Português nativo e Inglês avançado.
+- Contatos: WhatsApp (31) 99694-6632, e-mail silvaalvarobf@gmail.com, GitHub https://github.com/Alvarodocxp.
+
+COMO RESPONDER:
+- Fale sempre em primeira pessoa.
+- Seja profissional, direto e simpático.
+- Use negrito com moderação.
+- Responda no idioma do visitante.
+
+Histórico recente:
+${conversationHistory}
+
+Pergunta do visitante: "${question}"`;
 
         const res = await fetch(
-          `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+          `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${keyToUse}`,
           {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-              contents: [{ parts: [{ text: prompt }] }],
+              contents: [{ parts: [{ text: systemPrompt }] }],
             }),
           }
         );
@@ -124,14 +175,17 @@ Responda de forma simpática, direta e profissional em primeira pessoa no idioma
             streamResponse(aiText.trim());
             return;
           }
+        } else {
+          const errData = await res.json().catch(() => ({}));
+          console.warn('Gemini API status not ok:', res.status, errData);
         }
       } catch (err) {
-        console.error('Gemini API fallback to local resume data:', err);
+        console.error('Gemini API fetch error:', err);
+        setIsTyping(false);
       }
     }
 
-    // Fallback inteligente instantâneo baseado no currículo
-    const answer = findAnswer(question);
+    const answer = resolveSemanticAnswer(question, lang);
     streamResponse(answer);
   };
 
@@ -148,17 +202,15 @@ Responda de forma simpática, direta e profissional em primeira pessoa no idioma
         sender: 'alvaro',
         text:
           lang === 'pt'
-            ? 'Conversa reiniciada! Pode fazer uma nova pergunta sobre minha trajetória, curso na PUC Minas ou stack.'
-            : 'Conversation reset! Feel free to ask a new question about my background, PUC Minas or stack.',
+            ? 'Conversa reiniciada. Pode perguntar sobre minha formação, tecnologias, projetos ou busca por estágio.'
+            : 'Conversation reset. Ask me about my education, technologies, projects or internship search.',
       },
     ]);
   };
 
-  // Renderiza markdown simples (negrito, quebra de linha e listas)
   const formatText = (txt) => {
     const parts = txt.split('\n');
     return parts.map((line, i) => {
-      // Negrito com **
       const boldFormatted = line.split(/(\*\*.*?\*\*)/g).map((chunk, j) => {
         if (chunk.startsWith('**') && chunk.endsWith('**')) {
           return <strong key={j}>{chunk.slice(2, -2)}</strong>;
@@ -180,24 +232,27 @@ Responda de forma simpática, direta e profissional em primeira pessoa no idioma
   return (
     <div className="ask-modal-backdrop" onClick={onClose}>
       <div className="ask-modal-dialog" onClick={(e) => e.stopPropagation()}>
-        {/* Header */}
         <div className="ask-modal-header">
           <div className="ask-header-user">
             <div className="ask-avatar-badge">
-              <img
-                src="https://github.com/Alvarodocxp.png"
-                alt="Álvaro Barbosa"
-                className="ask-avatar"
-              />
+              <img src="https://github.com/Alvarodocxp.png" alt="Álvaro Barbosa" className="ask-avatar" />
               <span className="ask-online-dot" />
             </div>
             <div>
               <div className="ask-title-row">
                 <span className="ask-header-name">Álvaro Barbosa</span>
-                <span className="ask-tag-pill">Ask IA</span>
+                <span className={`ask-tag-pill ${activeKey ? 'has-ai' : ''}`}>
+                  {activeKey ? 'Gemini' : 'Currículo'}
+                </span>
               </div>
               <span className="ask-header-sub">
-                {lang === 'pt' ? 'Respostas baseadas no Currículo oficial' : 'Powered by official Resume'}
+                {activeKey
+                  ? lang === 'pt'
+                    ? 'IA generativa conectada'
+                    : 'Generative AI connected'
+                  : lang === 'pt'
+                    ? 'Base oficial do currículo'
+                    : 'Official resume knowledge'}
               </span>
             </div>
           </div>
@@ -205,55 +260,90 @@ Responda de forma simpática, direta e profissional em primeira pessoa no idioma
           <div className="ask-header-actions">
             <button
               className="ask-header-btn"
+              onClick={() => setShowConfig(!showConfig)}
+              title={lang === 'pt' ? 'Configurar chave Gemini' : 'Configure Gemini key'}
+              aria-label={lang === 'pt' ? 'Configurar IA' : 'Configure AI'}
+            >
+              <AskIcon name="settings" size={17} />
+            </button>
+            <button
+              className="ask-header-btn"
               onClick={handleReset}
               title={lang === 'pt' ? 'Limpar conversa' : 'Reset chat'}
-              aria-label="Reiniciar"
+              aria-label={lang === 'pt' ? 'Reiniciar conversa' : 'Reset conversation'}
             >
-              🔄
+              <AskIcon name="reset" size={17} />
             </button>
             <button
               className="ask-header-btn ask-close-btn"
               onClick={onClose}
               title={lang === 'pt' ? 'Fechar' : 'Close'}
-              aria-label="Fechar"
+              aria-label={lang === 'pt' ? 'Fechar' : 'Close'}
             >
-              ✕
+              <AskIcon name="close" size={17} />
             </button>
           </div>
         </div>
 
-        {/* Sugestões rápidas (Chips) */}
+        {showConfig && (
+          <div className="ask-config-banner">
+            <div className="ask-config-header">
+              <span>{lang === 'pt' ? 'Conectar chave do Google Gemini' : 'Connect Google Gemini key'}</span>
+              <a
+                href="https://aistudio.google.com/app/apikey"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ask-config-link"
+              >
+                {lang === 'pt' ? 'Criar chave grátis' : 'Create free key'}
+              </a>
+            </div>
+            <p className="ask-config-desc">
+              {lang === 'pt'
+                ? 'A chave fica salva apenas neste navegador e habilita respostas abertas.'
+                : 'The key is saved only in this browser and enables open-ended answers.'}
+            </p>
+            <div className="ask-config-row">
+              <input
+                type="password"
+                className="ask-config-input"
+                placeholder="AIzaSy..."
+                value={apiKeyInput}
+                onChange={(e) => setApiKeyInput(e.target.value)}
+              />
+              <button className="ask-config-btn" onClick={handleSaveApiKey}>
+                {lang === 'pt' ? 'Salvar' : 'Save'}
+              </button>
+            </div>
+          </div>
+        )}
+
         <div className="ask-suggestions-bar">
           <span className="ask-suggestions-label">
-            {lang === 'pt' ? 'Perguntas rápidas:' : 'Quick questions:'}
+            {lang === 'pt' ? 'Perguntas rápidas' : 'Quick questions'}
           </span>
           <div className="ask-chips-scroll">
-            {tBase.sugestoes.map((sug, idx) => (
+            {tBase.sugestoes.map((suggestion) => (
               <button
-                key={idx}
+                key={suggestion}
                 className="ask-chip"
-                onClick={() => handleSend(sug)}
+                onClick={() => handleSend(suggestion)}
                 disabled={isTyping}
               >
-                {sug}
+                {suggestion}
               </button>
             ))}
           </div>
         </div>
 
-        {/* Mensagens */}
         <div className="ask-messages-body">
           {messages.map((msg, index) => (
             <div
-              key={index}
+              key={`${msg.sender}-${index}`}
               className={`ask-message-row ${msg.sender === 'user' ? 'user-row' : 'alvaro-row'}`}
             >
               {msg.sender === 'alvaro' && (
-                <img
-                  src="https://github.com/Alvarodocxp.png"
-                  alt="Álvaro"
-                  className="ask-msg-avatar"
-                />
+                <img src="https://github.com/Alvarodocxp.png" alt="Álvaro" className="ask-msg-avatar" />
               )}
               <div className={`ask-bubble ${msg.sender === 'user' ? 'bubble-user' : 'bubble-alvaro'}`}>
                 {formatText(msg.text)}
@@ -262,16 +352,15 @@ Responda de forma simpática, direta e profissional em primeira pessoa no idioma
           ))}
 
           {isTyping && (
-            <div className="ask-typing-indicator">
-              <span></span>
-              <span></span>
-              <span></span>
+            <div className="ask-typing-indicator" aria-label={lang === 'pt' ? 'Digitando' : 'Typing'}>
+              <span />
+              <span />
+              <span />
             </div>
           )}
           <div ref={messagesEndRef} />
         </div>
 
-        {/* Formulário de Envio */}
         <div className="ask-modal-footer">
           <input
             ref={inputRef}
@@ -279,25 +368,22 @@ Responda de forma simpática, direta e profissional em primeira pessoa no idioma
             className="ask-input"
             placeholder={
               lang === 'pt'
-                ? 'Pergunte algo sobre minha formação, stack ou estágio...'
-                : 'Ask about my education, stack, or internship...'
+                ? 'Pergunte sobre curso, tecnologias, projetos...'
+                : 'Ask about degree, technologies, projects...'
             }
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             onKeyDown={handleKeyDown}
             disabled={isTyping}
-            maxLength={300}
+            maxLength={350}
           />
           <button
             className="ask-send-btn"
             onClick={() => handleSend()}
             disabled={!inputValue.trim() || isTyping}
-            aria-label="Enviar"
+            aria-label={lang === 'pt' ? 'Enviar' : 'Send'}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="22" y1="2" x2="11" y2="13" />
-              <polygon points="22 2 15 22 11 13 2 9 22 2" />
-            </svg>
+            <AskIcon name="send" size={18} />
           </button>
         </div>
       </div>
