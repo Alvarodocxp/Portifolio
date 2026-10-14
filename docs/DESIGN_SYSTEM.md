@@ -75,7 +75,7 @@ Os limites são pontos de adaptação, não categorias de aparelhos. A tipografi
 | `.section-heading` | Título ou agrupamento de `h2` com descrição/link auxiliar |
 | `.skip-link` | Link visível ao receber foco para pular para o conteúdo |
 
-Combine sempre `.button` com uma variante. Use `<button>` para ações locais e `<a>` para navegação e downloads. Ícones decorativos devem usar `aria-hidden="true"`; botões com apenas ícone precisam de nome acessível. Não remova sublinhados de links em texto contínuo sem outro indicador reconhecível.
+Sempre `.button` com uma variante. Use `<button>` para ações locais e `<a>` para navegação e downloads. Ícones decorativos devem usar `aria-hidden="true"`; botões com apenas ícone precisam de nome acessível. Não remova sublinhados de links em texto contínuo sem outro indicador reconhecível.
 
 ```jsx
 <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -102,7 +102,7 @@ Combine sempre `.button` com uma variante. Use `<button>` para ações locais e 
 - **Sucesso:** confirmação escrita; não apague uma falha anterior antes de haver um novo resultado.
 - **Movimento reduzido:** respeite `prefers-reduced-motion`. O CSS desativa rolagem suave e reduz transições e animações. Animações controladas por JavaScript também devem consultar essa preferência.
 
-Use labels visíveis nos formulários, mensagens claras, ordem de foco previsível e áreas de toque de pelo menos 44 px. Os botões do sistema têm 48 px de altura. Verifique contraste, navegação por teclado, foco ao mudar de página, leitura em telas pequenas e o comportamento com zoom antes de publicar.
+Labels visíveis nos formulários, mensagens claras, ordem de foco previsível e áreas de toque de pelo menos 44 px. Os botões do sistema têm 48 px de altura. Verifique contraste, navegação por teclado, foco ao mudar de página, leitura em telas pequenas e o comportamento com zoom antes de publicar.
 
 ## Critérios de consistência
 
@@ -110,4 +110,4 @@ Novas páginas reutilizam o mesmo cabeçalho, container, escala tipográfica e c
 
 ## Densidade de conteúdo
 
-Use títulos diretos, sem slogans, numeração decorativa ou subtítulos de apresentação. A página inicial concentra uma apresentação breve e os acessos a projetos e contato. Cada projeto usa uma única descrição; tecnologias, data e GitHub complementam o conteúdo. O rodapé contém apenas o copyright e o assistente usa um botão de ícone com nome acessível. Informações necessárias à atividade e labels do formulário permanecem visíveis.
+Use títulos diretos, sem slogans, numeração decorativa ou subtítulos de apresentação. A página inicial concentra uma apresentação breve e os acessos ao sobre mim, projetos, experiencias e contato. Cada projeto usa uma única descrição; tecnologias, data e GitHub complementam o conteúdo. O rodapé contém apenas o copyright e o assistente usa um botão de ícone com nome acessível. Informações necessárias à atividade e labels do formulário permanecem visíveis.
