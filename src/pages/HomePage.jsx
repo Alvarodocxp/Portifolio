@@ -26,8 +26,16 @@ export default function HomePage({ lang }) {
             : "Software Engineering student at PUC Minas."}
         </p>
         <div className="hero-actions">
+          <Link to="/sobre" className="button button-primary">
+            {pt ? "Sobre Mim" : "About Me"}
+            <Icon name="arrow" />
+          </Link>
           <Link to="/projetos" className="button button-primary">
             {pt ? "Projetos" : "Projects"}
+            <Icon name="arrow" />
+          </Link>
+          <Link to="/experiencias" className="button button-primary">
+            {pt ? "Experiências" : "Experiences"}
             <Icon name="arrow" />
           </Link>
           <Link to="/contato" className="button button-secondary">

@@ -6,7 +6,7 @@ export default function ExperiencePage({ lang = "pt" }) {
   return (
     <div className="container page-content">
       <header className="page-header">
-        <h1>{pt ? "Experiências" : "Experience"}</h1>
+        <h1>{pt ? "Experiências" : "Experiences"}</h1>
       </header>
       <section className="experience-section">
         <div className="experience-list">
