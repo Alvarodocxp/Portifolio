@@ -1,291 +1,236 @@
-<!-- Template adaptado para o projeto de Portfólio Profissional - PUC Minas (Engenharia de Software / DIAW) -->
+<!-- Adaptado do template de README do Prof. Dr. João Paulo Carneiro Aramuni. -->
 
----
+# Portfólio profissional · Álvaro Barbosa
 
-# 🌐 Portfólio Profissional | Álvaro Barbosa 👨‍💻
+Portfólio bilíngue para apresentar minha formação em Engenharia de Software na PUC Minas, habilidades, projetos e canais de contato. Desenvolvido para o **Laboratório 01 de Desenvolvimento e Integração de Aplicações Web (DIAW)**, sob orientação do **Prof. Dr. João Paulo Carneiro Aramuni**.
 
-> [!NOTE]
-> Website de portfólio pessoal e profissional desenvolvido para apresentar trajetória acadêmica, habilidades técnicas, linha do tempo de projetos e canais de contato de forma interativa, moderna e responsiva.  
-> Projeto desenvolvido no âmbito da disciplina **Desenvolvimento e Integração de Aplicações Web (DIAW)** do curso de **Engenharia de Software da PUC Minas**, sob orientação do **Prof. Dr. João Paulo Carneiro Aramuni**.
+![Interface real da página inicial](public/media/portfolio-home.png)
 
-<table>
-  <tr>
-    <td width="820px">
-      <div align="justify">
-        Este repositório contém o código-fonte e a documentação completa do <b>Portfólio Profissional</b> de <b>Álvaro Barbosa</b>. O projeto foi concebido para atender aos requisitos da avaliação prática <b>LAB 01 (Laboratório de Portfólio Profissional)</b>, estruturando uma presença digital sólida e profissional. A aplicação conta com apresentação pessoal bilíngue (Português e Inglês), linha do tempo cronológica com demonstrações visuais dos projetos desenvolvidos, histórico detalhado de experiências e formação, além de um canal direto de contato integrado a serviço de envio de e-mails em tempo real.
-      </div>
-    </td>
-    <td align="center">
-      <div>
-        <img src="https://joaopauloaramuni.github.io/image/logo_ES_vertical.png" alt="Engenharia de Software PUC Minas" width="130px"/>
-      </div>
-    </td>
-  </tr> 
-</table>
+## Status e links úteis
 
----
+**Versão local validada.** Build, lint, 7 testes unitários e 17 testes de navegador passaram. O teste real autorizado do EmailJS retornou HTTP 200 — OK e o proprietário confirmou o recebimento. A correspondência com o arquivo Figma e a publicação da versão final ainda precisam das verificações descritas em [Evidências da atividade](docs/EVIDENCIAS.md).
 
-## 🚧 Status do Projeto
+- [Repositório](https://github.com/Alvarodocxp/Portifolio)
+- [Figma informado para a atividade](https://www.figma.com/design/CWnq4BugBfnHdXvTuWFP3i/Sem-t%C3%ADtulo?node-id=0-1)
+- [Design system](docs/DESIGN_SYSTEM.md) · [Wireframes de referência](docs/PROTOTIPOS.md)
+- [Configuração do EmailJS](docs/EMAILJS.md)
+- **Endereço previsto para GitHub Pages:** [alvarodocxp.github.io/Portifolio](https://alvarodocxp.github.io/Portifolio/). A disponibilidade da versão final nesse endereço não foi confirmada nesta tarefa; configurar e verificar a publicação antes da entrega.
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
-[![Versão](https://img.shields.io/badge/Versão-v1.0.0-007ec6?style=for-the-badge)](https://github.com/Alvarodocxp/Portifolio/releases)
-[![Licença](https://img.shields.io/github/license/Alvarodocxp/Portifolio?style=for-the-badge&color=007ec6)](./LICENSE)
-![Vite](https://img.shields.io/badge/Vite-Build%20Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-Semântico-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Moderno-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![EmailJS](https://img.shields.io/badge/EmailJS-Integrado-F4A400?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/Alvarodocxp/Portifolio?style=for-the-badge&logo=files)
-![GitHub last commit](https://img.shields.io/github/last-commit/Alvarodocxp/Portifolio?style=for-the-badge&logo=clockify)
+## Sobre o projeto
 
----
+O site reúne minha apresentação, objetivo profissional, currículo, tecnologias, trabalhos acadêmicos e experiências pessoais. O objetivo é facilitar o contato com recrutadores, colegas e avaliadores, com informação organizada e navegação acessível em computadores, tablets e celulares.
 
-## 📚 Índice
-- [🔗 Links Úteis](#-links-úteis)
-- [📝 Sobre o Projeto](#-sobre-o-projeto)
-- [✨ Funcionalidades Principais](#-funcionalidades-principais)
-- [🛠 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [🏗 Arquitetura e Design System](#-arquitetura-e-design-system)
-- [📅 Processo de Desenvolvimento (Sprints)](#-processo-de-desenvolvimento-sprints)
-- [🔧 Instalação e Execução](#-instalação-e-execução)
-- [🚀 Deploy em Nuvem](#-deploy-em-nuvem)
-- [📂 Estrutura de Pastas](#-estrutura-de-pastas)
-- [🎥 Demonstração](#-demonstração)
-- [🔗 Documentações Utilizadas](#-documentações-utilizadas)
-- [👥 Autores](#-autores)
-- [🤝 Contribuição](#-contribuição)
-- [🙏 Agradecimentos](#-agradecimentos)
-- [📄 Licença](#-licença)
+Busco meu primeiro estágio em desenvolvimento de software. Minha trajetória acadêmica e os trabalhos apresentados usam programação, desenvolvimento web, bancos de dados e automação. As experiências pessoais não são apresentadas como vínculos profissionais.
 
----
+## Funcionalidades principais
 
-## 🔗 Links Úteis
-* 🌐 **Deploy em Produção:** [Acessar Portfólio Online](https://alvarodocxp.github.io/Portifolio/)
-  > 💻 Aplicação hospedada em produção no GitHub Pages / Vercel.
-* 📁 **Repositório GitHub:** [github.com/Alvarodocxp/Portifolio](https://github.com/Alvarodocxp/Portifolio)
+| Página | Conteúdo |
+| --- | --- |
+| Início — `/#/` | Apresentação, disponibilidade, acesso aos projetos e canais sociais |
+| Sobre mim — `/#/sobre` | Apresentação em português e inglês, formação, interesses, objetivo, currículo PDF e tecnologias com filtros |
+| Projetos — `/#/projetos` | Timeline do mais antigo ao mais recente, filtros por área, descrição, stack, repositórios específicos e galerias de capturas reais |
+| Experiências — `/#/experiencias` | Instituição, atividade, período e descrição de formação e projetos pessoais |
+| Contato — `/#/contato` | E-mail, WhatsApp, LinkedIn e GitHub; formulário com validação, envio por EmailJS e estados de erro, envio e sucesso |
 
----
+O menu troca a página exibida: cada rota possui conteúdo próprio, URL, título e estado ativo. O **HashRouter** permite abrir e atualizar rotas em hospedagem estática, inclusive GitHub Pages, sem regras especiais no servidor. O idioma escolhido é mantido na navegação e após recarregar a página.
 
-## 📝 Sobre o Projeto
+O globo 3D de tecnologias é carregado somente quando solicitado. A lista de habilidades funciona sem WebGL. O assistente de currículo é complementar à atividade e tem respostas locais sem exigir chave de IA. Integração externa com Gemini não faz parte da validação desta entrega.
 
-Este projeto consiste na criação de um **website de portfólio profissional**, moderno e responsivo, cujo propósito central é consolidar e dar visibilidade à evolução técnica e acadêmica do desenvolvedor.
+## Tecnologias, dependências e bibliotecas
 
-- **Por que ele existe:** Criado como entrega avaliativa para o **Lab 01** da disciplina **Desenvolvimento e Integração de Aplicações Web (DIAW)**, ministrada no 2º período de **Engenharia de Software da PUC Minas**.
-- **Qual problema ele resolve:** Centraliza currículo, projetos, habilidades e canais de comunicação direta em um único endereço web, garantindo alta usabilidade para recrutadores e avaliadores acadêmicos.
-- **Contexto:** Acadêmico e profissional (preparação contínua para processos seletivos e estágios na área de tecnologia).
-- **Diferencial:** Apresentação bilíngue (Português/Inglês), linha do tempo cronológica de projetos, tema escuro premium e formulário funcional integrado com EmailJS.
+| Tecnologia / pacote | Uso |
+| --- | --- |
+| JavaScript, JSX, HTML5 e CSS3 | Estrutura, comportamento e estilos |
+| `react`, `react-dom` — React 19 | Componentes e renderização |
+| `react-router-dom` — React Router 7 | Páginas, navegação e histórico |
+| `vite` — Vite 8, `@vitejs/plugin-react` | Desenvolvimento e build de produção |
+| `@emailjs/browser` — EmailJS 4 | Serviço externo de envio de e-mail |
+| `three`, `@react-three/fiber`, `@react-three/drei` | Globo 3D opcional de tecnologias |
+| `oxlint` | Análise estática |
+| `@playwright/test` | Testes reais de navegador, responsividade e fluxos com API interceptada |
+| `@types/react`, `@types/react-dom` | Tipagens utilizadas pelas ferramentas de desenvolvimento |
 
----
+As versões instaláveis estão registradas em [package.json](package.json) e fixadas no [package-lock.json](package-lock.json). Fontes Inter, avatar GitHub e ícones do globo podem usar serviços externos; a fonte do sistema, o monograma e a lista textual oferecem alternativas locais.
 
-## ✨ Funcionalidades Principais
+## Arquitetura e design
 
-- 👤 **Seção "Sobre Mim" (Bilíngue):** Apresentação completa em PT-BR e EN-US com alternador de idioma no menu.
-- 🛠 **Grid de Habilidades:** Cards organizados por categoria (Linguagens, Frameworks, Bancos, Ferramentas, Idiomas).
-- ⏳ **Linha do Tempo de Projetos:** Exibição cronológica com descrição, tags de tecnologias e links para os repositórios no GitHub.
-- 💼 **Experiências & Formação:** Cards interativos com ícone, instituição, período e descrição.
-- ✉️ **Formulário de Contato com EmailJS:** Envio automático de e-mails diretamente do front-end, sem backend próprio.
-- 📱 **Responsividade Total:** Layout adaptado para mobile, tablet e desktop com menu hamburger.
-- 🎨 **Dark Theme Premium:** Design com gradientes, glassmorphism e micro-animações (hover, fade-in, scroll).
-- 🔗 **Ícones Sociais Interativos:** Links para GitHub, LinkedIn, WhatsApp e E-mail.
-- 🌐 **SEO Otimizado:** Meta tags, heading hierarchy, HTML5 semântico e fonte Inter via Google Fonts.
-
----
-
-## 🛠 Tecnologias Utilizadas
-
-### 💻 Front-end
-* **Framework:** React 19 + JSX
-* **Linguagem:** JavaScript ES6+
-* **Estilização:** Vanilla CSS3 (Custom Properties, Flexbox, Grid, Media Queries, Animações)
-* **Build Tool:** Vite 8
-* **Tipografia:** Google Fonts (Inter)
-
-### 🔌 Integrações
-* **Envio de E-mails:** [EmailJS](https://www.emailjs.com/) — SDK `@emailjs/browser`
-* **Avatar:** GitHub API (`github.com/<user>.png`)
-
-### ☁️ Hospedagem & Versionamento
-* **Versionamento:** Git + GitHub
-* **Deploy:** GitHub Pages / Vercel
-
----
-
-## 🏗 Arquitetura e Design System
-
-```
-[ Navegador ]
-     │
-     ▼
-[ SPA React (Vite) ]
- ├── Navbar (scroll, hamburger, lang toggle)
- ├── Hero (apresentação + avatar + redes)
- ├── Sobre Mim (texto bilíngue + stats + skills)
- ├── Projetos (timeline cronológica)
- ├── Experiências (cards com ícone/instituição/data)
- └── Contato
-      ├── Info cards (tel, email, local)
-      └── Form ──→ [ EmailJS API ] ──→ [ Inbox ]
+```mermaid
+flowchart LR
+  Visitante[Navegador] --> Router[React + HashRouter]
+  Router --> Pages[Páginas do portfólio]
+  Pages --> Dados[Dados locais e currículo PDF]
+  Pages --> Design[Tokens e componentes compartilhados]
+  Pages --> Form[Validação do contato]
+  Form --> EmailJS[EmailJS: serviço externo]
+  EmailJS --> Inbox[Caixa de entrada do proprietário]
 ```
 
-### 🎨 Design System
-| Token | Valor |
-|:---|:---|
-| **Background** | `#0a0a0f` (deep slate) |
-| **Card** | `#141821` com `border: rgba(255,255,255,0.06)` |
-| **Accent** | `#38bdf8` → `#818cf8` (gradiente) |
-| **Font** | Inter 300–900 |
-| **Radius** | 8/12/16/24px |
-| **Animações** | fadeInUp, pulse, hover translate, IntersectionObserver |
+O front-end é estático; o processamento de e-mail usa o serviço EmailJS e a conta conectada pelo proprietário. Não há banco de dados ou servidor próprio obrigatório para executar o portfólio. O formulário envia nome, endereço para resposta, assunto e mensagem; o destinatário permanece fixo no template da conta.
 
----
+A identidade visual mantém o tema escuro original, superfícies slate, teal, azul e pequenos detalhes laranja. Cores, espaçamentos, tipografia, raios, estados e foco estão centralizados em [src/styles/design-system.css](src/styles/design-system.css) e documentados em [DESIGN_SYSTEM.md](docs/DESIGN_SYSTEM.md). Os layouts se ajustam em 380, 760, 820 e 1050 px conforme o componente, com medidas fluidas entre esses pontos.
 
-## 📅 Processo de Desenvolvimento (Sprints)
+As páginas têm landmarks semânticos, um `h1` por rota, labels nos campos, erros associados aos inputs, feedback acessível, navegação por teclado, foco visível, menu móvel com estado expandido e respeito a movimento reduzido. O diálogo do assistente contém o foco, fecha por Escape e devolve o foco ao botão de abertura.
 
-### 🔹 Lab01S01: Planejamento e Prototipação (4 pontos)
-- [x] Criação do repositório no GitHub com `README.md` estruturado
-- [x] Estruturação do esqueleto HTML/CSS inicial e setup do projeto (Vite + React)
-- [x] Implementação do menu de navegação e layout base (cabeçalho, seções e rodapé)
+### Planejamento e protótipos
 
-### 🔹 Lab01S02: Implementação das Funcionalidades Principais (4 pontos)
-- [x] Implementação da seção "Sobre Mim" com suporte a Português e Inglês
-- [x] Linha do tempo interativa da seção "Projetos"
-- [x] Preenchimento organizado das "Experiências"
-- [x] Formulário de contato funcional integrado ao EmailJS
-- [x] Validações de formulário e responsividade completa
+Os wireframes abaixo foram produzidos como **referência da estrutura implementada**. São SVGs editáveis que podem ser importados no Figma. Não são exportações nem comprovação de acesso aos frames do arquivo Figma informado, que retornou bloqueio HTTP 403 neste ambiente. Para concluir a evidência da Sprint 01, revisar o arquivo compartilhado e incluir as exportações dos seus frames.
 
-### 🔹 Lab01S03: Hospedagem e Finalização (7 pontos)
-- [ ] Deploy da aplicação na Vercel / GitHub Pages
-- [ ] Inserção de mídias reais (GIFs e capturas de tela) dos projetos em execução
-- [x] Revisão visual, acessibilidade e checklist de entrega
-- [x] Documentação e links finais atualizados no `README.md`
+| Sobre mim | Projetos |
+| --- | --- |
+| ![Wireframe Sobre mim](docs/prototypes/sobre.svg) | ![Wireframe Projetos](docs/prototypes/projetos.svg) |
+| Experiências | Contato |
+| ![Wireframe Experiências](docs/prototypes/experiencias.svg) | ![Wireframe Contato](docs/prototypes/contato.svg) |
 
----
-
-## 🔧 Instalação e Execução
+## Instalação e execução
 
 ### Pré-requisitos
-* **Node.js** v18+ — [Download](https://nodejs.org/)
-* **Git** — [Download](https://git-scm.com/)
 
-### 🔑 Variáveis de Ambiente (opcional — para envio de e-mails)
-
-Crie um arquivo `.env` na raiz do projeto:
-
-```env
-VITE_EMAILJS_SERVICE_ID=seu_service_id_aqui
-VITE_EMAILJS_TEMPLATE_ID=seu_template_id_aqui
-VITE_EMAILJS_PUBLIC_KEY=sua_public_key_aqui
-```
-
-### 📦 Instalação
+- **Node.js 24**, indicado em `.nvmrc`; validado com Node 24.19.0 e npm 11.9.0. Vite 8 exige pelo menos Node 20.19 ou 22.12; a recomendação antiga de Node 18 não se aplica.
+- Git.
+- Chromium para os testes de navegador. O build e os testes unitários não exigem navegador.
 
 ```bash
 git clone https://github.com/Alvarodocxp/Portifolio.git
 cd Portifolio
-npm install
-```
-
-### ⚡ Executar em desenvolvimento
-
-```bash
+# Se utilizar nvm:
+nvm install
+nvm use
+npm ci
 npm run dev
 ```
 
-Acesse: **http://localhost:5173**
+Em um ambiente Codex já preparado, utilize o checkout existente. Cada tarefa já é isolada; não é necessário criar um Git worktree para começar.
 
----
+### Configuração do contato
 
-## 🚀 Deploy em Nuvem
+Crie `.env.local` a partir de `.env.example` e preencha os três campos com as configurações da sua própria conta EmailJS:
+
+```env
+VITE_EMAILJS_SERVICE_ID=
+VITE_EMAILJS_TEMPLATE_ID=
+VITE_EMAILJS_PUBLIC_KEY=
+```
+
+Use somente a **Public Key** apropriada para o navegador. Não inclua a Private Key em variáveis `VITE_*`. Reinicie o Vite depois de alterar as variáveis; em produção, refaça o build. `.env.local` é ignorado pelo Git. Consulte [EMAILJS.md](docs/EMAILJS.md) para configurar o template, Reply To, domínio e comprovar o recebimento.
+
+O aplicativo pode ser desenvolvido sem esses valores, mas o envio pelo formulário exige uma configuração válida. Um link `mailto:` abre um rascunho no aplicativo de e-mail do visitante e não comprova que a mensagem foi enviada.
+
+### Comandos disponíveis
+
+```bash
+npm run dev      # Servidor de desenvolvimento
+npm run build    # Build estático em dist/
+npm run preview  # Servir o build localmente
+npm run lint     # Análise estática
+npm test         # Testes unitários de contato
+npm run test:e2e # Testes de navegador com API EmailJS simulada
+```
+
+Se Chromium não estiver instalado, prepare-o com `npx playwright install chromium`. Em Linux, a ferramenta usa `/usr/bin/chromium` quando presente. Outra instalação pode ser indicada com `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`. O teste E2E inicia o servidor ou reutiliza uma instância local e intercepta todas as chamadas EmailJS; não envia mensagens reais.
+
+## Deploy gratuito
 
 ### GitHub Pages
+
+O arquivo [.github/workflows/pages.yml](.github/workflows/pages.yml) prepara validação em pull requests e publicação da branch `main`, além de execução manual. A configuração está criada; nenhum push ou deploy remoto foi executado nesta tarefa.
+
+1. No repositório GitHub, configure **Settings → Pages → Source → GitHub Actions**.
+2. Em **Settings → Secrets and variables → Actions → Variables**, configure os três nomes `VITE_EMAILJS_*` acima. São identificadores e Public Key de um SDK de navegador. Não use uma Private Key.
+3. Envie a versão revisada para `main` ou execute o workflow manualmente.
+4. O workflow usa `npm ci`, lint, testes unitários e `npm run build -- --base=/Portifolio/`, e publica `dist/`.
+5. Confirme o sucesso da execução e abra o endereço exibido pelo job de publicação. Atualize o status deste README após verificar página inicial, rotas internas, PDF e envio de e-mail no domínio publicado.
+
+Para conferir o build com o mesmo caminho de publicação localmente:
+
 ```bash
-npm run build
+npm run build -- --base=/Portifolio/
+npm run preview -- --base=/Portifolio/
 ```
-Publique a pasta `dist/` nas configurações do GitHub Pages.
 
 ### Vercel
-1. Importe o repositório na [Vercel](https://vercel.com/)
-2. Configure as variáveis `VITE_EMAILJS_*`
-3. Deploy automático a cada commit na `main`
 
----
+Como alternativa, importe o repositório na Vercel. [vercel.json](vercel.json) configura Vite, `npm run build` e saída `dist`. Adicione os três valores públicos do EmailJS nas variáveis de build e autorize a origem publicada no painel EmailJS. Não é necessário publicar em duas plataformas.
 
-## 📂 Estrutura de Pastas
+A publicação do **ambiente de desenvolvimento Codex** é independente da publicação do **website**; salvar o rascunho do ambiente não publica o site.
 
-```
+## Estrutura de diretórios
+
+```text
 Portifolio/
-├── public/                  # Favicon e assets estáticos
+├── .github/workflows/pages.yml  # Validação e deploy GitHub Pages
+├── docs/                       # Design, protótipos, EmailJS e evidências
+├── public/
+│   ├── media/                  # Capturas reais dos projetos e interface
+│   ├── avatar-fallback.svg
+│   └── curriculo-alvaro-barbosa.pdf
 ├── src/
-│   ├── assets/              # Imagens e recursos
-│   ├── App.jsx              # Componente principal (todas as seções)
-│   ├── App.css              # Design system e estilos completos
-│   ├── index.css            # Reset global
-│   └── main.jsx             # Entry point React
-├── .env.example             # Modelo de variáveis de ambiente
-├── .gitignore               # Arquivos ignorados
-├── index.html               # HTML principal com SEO
-├── package.json             # Dependências e scripts
-├── vite.config.js           # Configuração Vite
-├── LICENSE                  # Licença MIT
-└── README.md                # Esta documentação
+│   ├── components/             # Ícones, assistente e globo 3D
+│   ├── data/                   # Perfil, experiências e projetos
+│   ├── lib/                    # Validação/envio e testes unitários
+│   ├── pages/                  # Início, Sobre, Projetos, Experiências, Contato
+│   ├── styles/design-system.css
+│   ├── App.jsx                 # Rotas e estrutura compartilhada
+│   └── main.jsx
+├── tests/portfolio.spec.js     # Fluxos de navegador
+├── playwright.config.js
+├── package.json
+├── package-lock.json
+└── vite.config.js
 ```
 
----
+## Demonstração e projetos
 
-## 🎥 Demonstração
+Capturas reais da aplicação em execução:
 
-> As capturas de tela serão adicionadas após o deploy em produção.
+| Sobre mim | Contato |
+| --- | --- |
+| ![Apresentação bilíngue e currículo](public/media/portfolio-desktop.png) | ![Canais de contato e formulário](public/media/portfolio-contact.png) |
 
-| Seção | Descrição |
-|:---:|:---|
-| **Hero** | Apresentação com avatar, badge de status, botões de ação e ícones sociais |
-| **Sobre Mim** | Texto bilíngue PT/EN, cards de estatísticas e grid de habilidades |
-| **Projetos** | Linha do tempo cronológica com tags e links para o GitHub |
-| **Experiências** | Cards com ícone, instituição, período e descrição |
-| **Contato** | Informações de contato + formulário funcional com EmailJS |
+<details>
+<summary>Contato em celular (375 px)</summary>
 
----
+<img src="public/media/portfolio-mobile.png" width="375" alt="Página Contato responsiva em celular" />
 
-## 🔗 Documentações Utilizadas
+</details>
 
-* 📖 [React — Documentação Oficial](https://react.dev/)
-* 📖 [Vite — Guia de Configuração](https://vitejs.dev/guide/)
-* 📖 [EmailJS — SDK de Integração](https://www.emailjs.com/docs/)
-* 📖 [Google Fonts — Inter](https://fonts.google.com/specimen/Inter)
-* 📖 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-* 📖 [Template README — Prof. Dr. João Paulo Aramuni](https://github.com/joaopauloaramuni/desenvolvimento-e-integracao-de-aplicacoes-web)
+A timeline apresenta CineRecomendação, autenticação com Spring Boot e este portfólio, com datas verificadas em commits e links específicos. As capturas do CineRecomendação vieram do próprio repositório; as telas do projeto Java foram capturadas com a aplicação real em execução. As fontes estão documentadas em [EVIDENCIAS.md](docs/EVIDENCIAS.md).
 
----
+**Castle Defenders** aparece como colaboração com Python/Pygame. O repositório informado está privado conforme confirmado pelo aluno; o administrador precisa liberar o acesso para permitir consulta ao código e uma captura real do jogo. Trabalhos de MQL5 são descritos na experiência, sem prometer código público que não está disponível.
 
-## 👥 Autores
+## Testes e evidências
 
-| 👤 Nome | 🖼️ Foto | :octocat: GitHub | 💼 LinkedIn | 📤 E-mail |
-|:---:|:---:|:---:|:---:|:---:|
-| **Álvaro Barbosa** | <div align="center"><img src="https://github.com/Alvarodocxp.png" width="80px" style="border-radius:50%" alt="Álvaro Barbosa"></div> | <div align="center"><a href="https://github.com/Alvarodocxp"><img src="https://joaopauloaramuni.github.io/image/github6.png" width="40px" height="40px" alt="GitHub"></a></div> | <div align="center"><a href="https://linkedin.com"><img src="https://joaopauloaramuni.github.io/image/linkedin2.png" width="40px" height="40px" alt="LinkedIn"></a></div> | <div align="center"><a href="mailto:silvaalvarobf@gmail.com"><img src="https://joaopauloaramuni.github.io/image/gmail3.png" width="40px" height="40px" alt="E-mail"></a></div> |
+- **7 testes unitários:** configuração, placeholders, campos inválidos, limites, parâmetros dos templates, resposta do serviço e erros.
+- **17 testes Chromium:** 40 combinações de páginas/idiomas/larguras (320, 375, 768 e 1440 px), navegação e histórico, idioma persistente, timeline, galeria, validação, confirmação simulada, bloqueio de envio duplicado, falhas de rede/configuração/limite e teclado no diálogo.
+- **Build e lint:** aprovados. O bundle 3D opcional ainda emite um aviso de tamanho; ele é carregado sob demanda.
+- **Teste real EmailJS:** aceito com HTTP 200 — OK em 14/10/2026, usando o mesmo serviço, template e parâmetros do formulário, pela API REST com TLS verificado. Um único envio foi aceito. Os testes de interface usam respostas simuladas; o Chromium da nuvem não reconheceu o certificado do proxy nas chamadas externas. O proprietário confirmou no chat que recebeu a mensagem na caixa configurada no template.
+- **Hospedagem pública:** pendente de execução do workflow e validação do domínio publicado.
 
----
+## Processo de desenvolvimento e entrega
 
-## 🤝 Contribuição
+| Sprint | Valor | Entregas |
+| --- | --- | --- |
+| Lab01S01 | 4 pontos | Repositório, README, wireframes, protótipo, menu e layout; revisar os frames Figma e anexar as exportações |
+| Lab01S02 | 4 pontos | Páginas bilíngues, timeline, experiências, contato, validação e responsividade; teste EmailJS aceito e recebimento confirmado pelo proprietário |
+| Lab01S03 | 7 pontos | Capturas, acabamento e README preparados; publicar e testar a versão final |
 
-1. Faça um **fork** do projeto.
-2. Crie uma branch (`git checkout -b feature/minha-melhoria`).
-3. Commit com mensagens semânticas (`git commit -m 'feat: adiciona componente X'`).
-4. Push para a branch (`git push origin feature/minha-melhoria`).
-5. Abra um **Pull Request**.
+Na apresentação, mostrar as páginas e os dois idiomas, filtros de projetos, capturas reais, currículo e mensagem recebida. Explicar a escolha do tema escuro, os tokens, a separação de páginas, as regras responsivas e o uso do EmailJS como serviço de e-mail. A conferência completa, com pendências identificadas, está em [EVIDENCIAS.md](docs/EVIDENCIAS.md).
 
----
+## Documentações utilizadas
 
-## 🙏 Agradecimentos
+- [Template do professor](https://github.com/joaopauloaramuni/desenvolvimento-e-integracao-de-aplicacoes-web/blob/main/TEMPLATES/template_README.md)
+- [React](https://react.dev/) · [Vite](https://vite.dev/) · [React Router](https://reactrouter.com/)
+- [EmailJS](https://www.emailjs.com/docs/)
+- [Playwright](https://playwright.dev/)
+- [GitHub Pages](https://docs.github.com/en/pages) · [Vercel](https://vercel.com/docs)
 
-* [**PUC Minas — Engenharia de Software**](https://www.instagram.com/engsoftwarepucminas/) — Pela formação de excelência e incentivo às boas práticas de engenharia de software.
-* [**Prof. Dr. João Paulo Carneiro Aramuni**](https://github.com/joaopauloaramuni) — Pela orientação na disciplina DIAW e pelos padrões de documentação de alto nível.
-* À comunidade open source pelas ferramentas que tornaram o projeto possível.
+## Autor, contribuição e agradecimentos
 
----
+**Álvaro Barbosa** — Engenharia de Software, PUC Minas. [GitHub](https://github.com/Alvarodocxp) · [LinkedIn](https://www.linkedin.com/in/alvaro-barbosa).
 
-## 📄 Licença
+Para contribuir, descreva o problema, preserve dados pessoais e nunca inclua credenciais privadas. Execute lint, testes e build antes de propor alterações. O Castle Defenders é identificado como trabalho colaborativo e o código pertence ao repositório informado do colaborador.
 
-Este projeto é distribuído sob a licença **[MIT](LICENSE)**.
+Agradecimentos ao Prof. Dr. João Paulo Carneiro Aramuni pelas orientações da disciplina e pelo template de documentação.
 
----
+## Licença
+
+Código deste repositório sob [licença MIT](LICENSE). As referências e capturas dos projetos vinculados mantêm a autoria e as condições de seus respectivos repositórios.

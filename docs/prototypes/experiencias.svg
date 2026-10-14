@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="2235" viewBox="0 0 1700 2235" role="img" aria-labelledby="title desc">
+  <title id="title">Experiências — wireframe de média fidelidade</title>
+  <desc id="desc">Referência monocromática de formação e prática do portfólio, incluindo experiências acadêmicas e projetos pessoais, em desktop e mobile.</desc>
+  <rect width="1700" height="2235" fill="#eceef1" />
+  <text x="32" y="30.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#353a42">EXPERIÊNCIAS · DESKTOP · 1200 px</text>
+  <rect x="32" y="48" width="1200" height="1549.0" rx="12" fill="#ffffff" stroke="#969da7" />
+  <text x="56" y="87.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c">AB.</text>
+  <text x="116" y="78.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Álvaro Barbosa</text>
+  <text x="116" y="94.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="500" fill="#4e545d">DESENVOLVEDOR</text>
+  <text x="472" y="83.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#4e545d">Início   Sobre mim   Projetos   Experiências   Contato</text>
+  <rect x="1106" y="62" width="40" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="1116" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">PT</text>
+  <rect x="1152" y="62" width="40" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="1162" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EN</text>
+  <line x1="32" y1="112" x2="1232" y2="112" stroke="#c9cdd3" />
+  <text x="1280" y="30.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#353a42">EXPERIÊNCIAS · MOBILE · 388 px</text>
+  <rect x="1280" y="48" width="388" height="2125.0" rx="12" fill="#ffffff" stroke="#969da7" />
+  <text x="1304" y="87.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c">AB.</text>
+  <rect x="1517" y="62" width="37" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="1527" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">PT</text>
+  <rect x="1558" y="62" width="37" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="1568" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EN</text>
+  <rect x="1607" y="60" width="38" height="38" rx="7" fill="#f4f5f6" stroke="#c2c7ce" />
+  <line x1="1617" y1="71" x2="1635" y2="71" stroke="#525a66" />
+  <line x1="1617" y1="78" x2="1635" y2="78" stroke="#525a66" />
+  <line x1="1617" y1="85" x2="1635" y2="85" stroke="#525a66" />
+  <line x1="1280" y1="112" x2="1668" y2="112" stroke="#c9cdd3" />
+  <text x="92" y="163.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#4e545d">03 / EXPERIÊNCIAS</text>
+  <text x="92" y="215" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="#252a32">Aprender. Aplicar. Evoluir.</text>
+  <text x="92" y="286" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#4e545d">Minha trajetória é construída entre a formação acadêmica e projetos pessoais. Estou em</text>
+  <text x="92" y="312" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#4e545d">busca da primeira oportunidade profissional em desenvolvimento.</text>
+  <text x="92" y="388.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">FORMAÇÃO &amp; PRÁTICA</text>
+  <text x="92" y="428.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#252a32">Experiências que me formam</text>
+  <rect x="92" y="486.0" width="1080" height="165" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <rect x="112" y="506.0" width="40" height="40" rx="7" fill="#e2e5e9" stroke="#b7bbc2" />
+  <text x="122" y="532.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#4e545d">&lt;&gt;</text>
+  <text x="174" y="519.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">PUC MINAS · LOURDES</text>
+  <rect x="1032" y="506.0" width="80" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="1042" y="525.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Formação</text>
+  <text x="174" y="548.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Engenharia de Software</text>
+  <text x="174" y="585.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Fevereiro 2026 – Dezembro 2029</text>
+  <text x="174" y="610.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Graduação com foco em desenvolvimento web, arquitetura de software, programação orientada a objetos e boas práticas de engenharia.</text>
+  <rect x="92" y="669.0" width="1080" height="165" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <rect x="112" y="689.0" width="40" height="40" rx="7" fill="#e2e5e9" stroke="#b7bbc2" />
+  <text x="122" y="715.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#4e545d">&lt;&gt;</text>
+  <text x="174" y="702.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">COLÉGIO BATISTA · ALPHAVILLE</text>
+  <rect x="1032" y="689.0" width="80" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="1042" y="708.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Formação</text>
+  <text x="174" y="731.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Ensino Médio</text>
+  <text x="174" y="768.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Conclusão: Dezembro 2025</text>
+  <text x="174" y="793.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Formação com destaque em ciências exatas e participação em projetos extracurriculares de tecnologia.</text>
+  <rect x="92" y="852.0" width="1080" height="165" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <rect x="112" y="872.0" width="40" height="40" rx="7" fill="#e2e5e9" stroke="#b7bbc2" />
+  <text x="122" y="898.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#4e545d">&lt;&gt;</text>
+  <text x="174" y="885.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">PROJETOS PESSOAIS</text>
+  <rect x="1032" y="872.0" width="129" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="1042" y="891.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Projeto pessoal</text>
+  <text x="174" y="914.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Mercado financeiro</text>
+  <text x="174" y="951.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">2024 – Presente</text>
+  <text x="174" y="976.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Desenvolvimento de estratégias algorítmicas, indicadores e robôs de trading com MQL5 para MetaTrader 5.</text>
+  <rect x="92" y="1035.0" width="1080" height="165" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <rect x="112" y="1055.0" width="40" height="40" rx="7" fill="#e2e5e9" stroke="#b7bbc2" />
+  <text x="122" y="1081.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#4e545d">&lt;&gt;</text>
+  <text x="174" y="1068.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">PROJETOS PESSOAIS</text>
+  <rect x="1032" y="1055.0" width="129" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="1042" y="1074.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Projeto pessoal</text>
+  <text x="174" y="1097.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Desenvolvimento de jogos</text>
+  <text x="174" y="1134.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">2024 – Presente</text>
+  <text x="174" y="1159.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Criação de mecânicas e scripts com Python, Pygame e Lua em projetos independentes.</text>
+  <rect x="92" y="1237.0" width="1080" height="196" rx="10" fill="#f0f2f4" stroke="#b7bbc2" />
+  <text x="114" y="1272.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">UM NOVO CAPÍTULO</text>
+  <text x="114" y="1310.0" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#252a32">Meu próximo passo pode ser com sua equipe.</text>
+  <text x="114" y="1371.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Quero participar de projetos reais, aprender com o time e contribuir com dedicação e curiosidade.</text>
+  <rect x="949" y="1304.0" width="200" height="44" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="963" y="1331.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Vamos conversar</text>
+  <line x1="32" y1="1477.0" x2="1232" y2="1477.0" stroke="#c9cdd3" />
+  <text x="62" y="1522.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#353a42">AB.</text>
+  <text x="62" y="1550.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
+  <text x="472" y="1537.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Sobre mim   Projetos   Experiências   Contato</text>
+  <text x="972" y="1537.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">© 2026 · Álvaro Barbosa</text>
+  <text x="1304" y="163.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#4e545d">03 / EXPERIÊNCIAS</text>
+  <text x="1304" y="207" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#252a32">Aprender. Aplicar.</text>
+  <text x="1304" y="246" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#252a32">Evoluir.</text>
+  <text x="1304" y="297" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Minha trajetória é construída entre a</text>
+  <text x="1304" y="320" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">formação acadêmica e projetos pessoais. Estou</text>
+  <text x="1304" y="343" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">em busca da primeira oportunidade</text>
+  <text x="1304" y="366" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">profissional em desenvolvimento.</text>
+  <text x="1304" y="439.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">FORMAÇÃO &amp; PRÁTICA</text>
+  <text x="1304" y="479.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#252a32">Experiências que me formam</text>
+  <rect x="1304" y="531.0" width="340" height="250" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <rect x="1324" y="551.0" width="40" height="40" rx="7" fill="#e2e5e9" stroke="#b7bbc2" />
+  <text x="1334" y="577.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#4e545d">&lt;&gt;</text>
+  <text x="1324" y="617.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">PUC MINAS · LOURDES</text>
+  <text x="1324" y="646.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Engenharia de Software</text>
+  <text x="1324" y="683.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Fevereiro 2026 – Dezembro 2029</text>
+  <text x="1324" y="708.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Graduação com foco em desenvolvimento web,</text>
+  <text x="1324" y="729.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">arquitetura de software, programação</text>
+  <text x="1324" y="750.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">orientada a objetos e boas práticas de</text>
+  <text x="1324" y="771.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">engenharia.</text>
+  <rect x="1304" y="799.0" width="340" height="250" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <rect x="1324" y="819.0" width="40" height="40" rx="7" fill="#e2e5e9" stroke="#b7bbc2" />
+  <text x="1334" y="845.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#4e545d">&lt;&gt;</text>
+  <text x="1324" y="885.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">COLÉGIO BATISTA · ALPHAVILLE</text>
+  <text x="1324" y="914.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Ensino Médio</text>
+  <text x="1324" y="951.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Conclusão: Dezembro 2025</text>
+  <text x="1324" y="976.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Formação com destaque em ciências exatas e</text>
+  <text x="1324" y="997.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">participação em projetos extracurriculares</text>
+  <text x="1324" y="1018.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">de tecnologia.</text>
+  <rect x="1304" y="1067.0" width="340" height="250" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <rect x="1324" y="1087.0" width="40" height="40" rx="7" fill="#e2e5e9" stroke="#b7bbc2" />
+  <text x="1334" y="1113.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#4e545d">&lt;&gt;</text>
+  <text x="1324" y="1153.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">PROJETOS PESSOAIS</text>
+  <text x="1324" y="1182.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Mercado financeiro</text>
+  <text x="1324" y="1219.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">2024 – Presente</text>
+  <text x="1324" y="1244.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Desenvolvimento de estratégias</text>
+  <text x="1324" y="1265.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">algorítmicas, indicadores e robôs de</text>
+  <text x="1324" y="1286.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">trading com MQL5 para MetaTrader 5.</text>
+  <rect x="1304" y="1335.0" width="340" height="250" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <rect x="1324" y="1355.0" width="40" height="40" rx="7" fill="#e2e5e9" stroke="#b7bbc2" />
+  <text x="1334" y="1381.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" fill="#4e545d">&lt;&gt;</text>
+  <text x="1324" y="1421.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">PROJETOS PESSOAIS</text>
+  <text x="1324" y="1450.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Desenvolvimento de jogos</text>
+  <text x="1324" y="1487.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">2024 – Presente</text>
+  <text x="1324" y="1512.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Criação de mecânicas e scripts com Python,</text>
+  <text x="1324" y="1533.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Pygame e Lua em projetos independentes.</text>
+  <rect x="1304" y="1622.0" width="340" height="304" rx="10" fill="#f0f2f4" stroke="#b7bbc2" />
+  <text x="1326" y="1657.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">UM NOVO CAPÍTULO</text>
+  <text x="1326" y="1695.0" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#252a32">Meu próximo passo pode</text>
+  <text x="1326" y="1725.0" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#252a32">ser com sua equipe.</text>
+  <text x="1326" y="1774.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Quero participar de projetos reais, aprender</text>
+  <text x="1326" y="1794.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">com o time e contribuir com dedicação e</text>
+  <text x="1326" y="1814.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">curiosidade.</text>
+  <rect x="1326" y="1852.0" width="200" height="44" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="1340" y="1879.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Vamos conversar</text>
+  <line x1="1280" y1="1973.0" x2="1668" y2="1973.0" stroke="#c9cdd3" />
+  <text x="1310" y="2018.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#353a42">AB.</text>
+  <text x="1310" y="2046.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
+  <text x="1310" y="2083.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Sobre mim   Projetos   Experiências   Contato</text>
+  <text x="1310" y="2129.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">© 2026 · Criado por Álvaro Barbosa</text>
+  <text x="32" y="2213" font-family="Inter, Arial, sans-serif" font-size="12" fill="#505862">Wireframe de referência criado em 14/10/2026 · Estrutura implementada · Não é exportação do Figma</text>
+</svg>

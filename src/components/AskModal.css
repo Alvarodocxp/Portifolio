@@ -42,6 +42,10 @@
   gap: 12px;
 }
 
+.ask-header-user > div:last-child {
+  min-width: 0;
+}
+
 .ask-avatar-badge {
   position: relative;
   flex: 0 0 auto;
@@ -109,9 +113,41 @@
 }
 
 .ask-header-actions {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+@media (max-width: 420px) {
+  .ask-modal-header {
+    gap: 10px;
+    padding: 13px 12px;
+  }
+  .ask-header-user {
+    gap: 9px;
+  }
+  .ask-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+  }
+  .ask-header-name {
+    font-size: 0.8rem;
+  }
+  .ask-tag-pill {
+    display: none;
+  }
+  .ask-header-sub {
+    font-size: 0.65rem;
+  }
+  .ask-header-actions {
+    gap: 5px;
+  }
+  .ask-header-btn {
+    width: 34px;
+    height: 34px;
+  }
 }
 
 .ask-header-btn {

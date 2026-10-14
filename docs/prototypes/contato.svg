@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="2030" viewBox="0 0 1700 2030" role="img" aria-labelledby="title desc">
+  <title id="title">Contato — wireframe de média fidelidade</title>
+  <desc id="desc">Referência monocromática da página Contato com canais diretos, formulário obrigatório, estados de envio e nota de privacidade, em desktop e mobile.</desc>
+  <rect width="1700" height="2030" fill="#eceef1" />
+  <text x="32" y="30.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#353a42">CONTATO · DESKTOP · 1200 px</text>
+  <rect x="32" y="48" width="1200" height="1169" rx="12" fill="#ffffff" stroke="#969da7" />
+  <text x="56" y="87.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c">AB.</text>
+  <text x="116" y="78.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Álvaro Barbosa</text>
+  <text x="116" y="94.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="500" fill="#4e545d">DESENVOLVEDOR</text>
+  <text x="472" y="83.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#4e545d">Início   Sobre mim   Projetos   Experiências   Contato</text>
+  <rect x="1106" y="62" width="40" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="1116" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">PT</text>
+  <rect x="1152" y="62" width="40" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="1162" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EN</text>
+  <line x1="32" y1="112" x2="1232" y2="112" stroke="#c9cdd3" />
+  <text x="1280" y="30.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#353a42">CONTATO · MOBILE · 388 px</text>
+  <rect x="1280" y="48" width="388" height="1892.5" rx="12" fill="#ffffff" stroke="#969da7" />
+  <text x="1304" y="87.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c">AB.</text>
+  <rect x="1517" y="62" width="37" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="1527" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">PT</text>
+  <rect x="1558" y="62" width="37" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="1568" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EN</text>
+  <rect x="1607" y="60" width="38" height="38" rx="7" fill="#f4f5f6" stroke="#c2c7ce" />
+  <line x1="1617" y1="71" x2="1635" y2="71" stroke="#525a66" />
+  <line x1="1617" y1="78" x2="1635" y2="78" stroke="#525a66" />
+  <line x1="1617" y1="85" x2="1635" y2="85" stroke="#525a66" />
+  <line x1="1280" y1="112" x2="1668" y2="112" stroke="#c9cdd3" />
+  <text x="92" y="163.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#4e545d">04 / CONTATO</text>
+  <text x="92" y="215" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="#252a32">Vamos construir algo juntos?</text>
+  <text x="92" y="286" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#4e545d">Uma oportunidade de estágio, uma ideia ou uma conversa sobre tecnologia. Estou à disposição</text>
+  <text x="92" y="312" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#4e545d">para o próximo passo.</text>
+  <rect x="92" y="374" width="204" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="102" y="393.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Aberto ao primeiro estágio</text>
+  <text x="92" y="444.0" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#252a32">Escolha o seu canal</text>
+  <text x="92" y="491.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Prefere uma conversa direta? Você também me encontra</text>
+  <text x="92" y="514.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">aqui.</text>
+  <rect x="92" y="553.5" width="38" height="38" rx="7" fill="#edf0f2" stroke="#b7bbc2" />
+  <line x1="104" y1="579.5" x2="118" y2="565.5" stroke="#525a66" />
+  <line x1="109" y1="565.5" x2="118" y2="565.5" stroke="#525a66" />
+  <line x1="118" y1="565.5" x2="118" y2="574.5" stroke="#525a66" />
+  <text x="145" y="565.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">E-mail</text>
+  <text x="145" y="588.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">silvaalvarobf@gmail.com</text>
+  <line x1="92" y1="615.5" x2="522" y2="615.5" stroke="#c9cdd3" />
+  <rect x="92" y="638.5" width="38" height="38" rx="7" fill="#edf0f2" stroke="#b7bbc2" />
+  <line x1="104" y1="664.5" x2="118" y2="650.5" stroke="#525a66" />
+  <line x1="109" y1="650.5" x2="118" y2="650.5" stroke="#525a66" />
+  <line x1="118" y1="650.5" x2="118" y2="659.5" stroke="#525a66" />
+  <text x="145" y="650.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Telefone / WhatsApp</text>
+  <text x="145" y="673.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">(31) 99694-6632</text>
+  <line x1="92" y1="700.5" x2="522" y2="700.5" stroke="#c9cdd3" />
+  <rect x="92" y="723.5" width="38" height="38" rx="7" fill="#edf0f2" stroke="#b7bbc2" />
+  <line x1="104" y1="749.5" x2="118" y2="735.5" stroke="#525a66" />
+  <line x1="109" y1="735.5" x2="118" y2="735.5" stroke="#525a66" />
+  <line x1="118" y1="735.5" x2="118" y2="744.5" stroke="#525a66" />
+  <text x="145" y="735.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Localização</text>
+  <text x="145" y="758.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Nova Lima e Belo Horizonte · MG</text>
+  <line x1="92" y1="785.5" x2="522" y2="785.5" stroke="#c9cdd3" />
+  <rect x="92" y="808.5" width="129" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
+  <text x="106" y="835.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">LinkedIn</text>
+  <rect x="232" y="808.5" width="118" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
+  <text x="246" y="835.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">GitHub</text>
+  <text x="92" y="888.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Copiar e-mail</text>
+  <rect x="582" y="374" width="590" height="632" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <text x="606" y="418.0" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#252a32">Deixe sua mensagem</text>
+  <text x="606" y="451" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Todos os campos são obrigatórios. Respondo assim que possível.</text>
+  <text x="606" y="510.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Nome *</text>
+  <rect x="606" y="523" width="264.0" height="42" rx="6" fill="#ffffff" stroke="#b7bbc2" />
+  <text x="619" y="549" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#69717c">Como posso chamar você?</text>
+  <text x="884.0" y="510.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">E-mail *</text>
+  <rect x="884.0" y="523" width="264.0" height="42" rx="6" fill="#ffffff" stroke="#b7bbc2" />
+  <text x="897.0" y="549" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#69717c">voce@exemplo.com</text>
+  <text x="606" y="596.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Assunto *</text>
+  <rect x="606" y="609" width="542" height="42" rx="6" fill="#ffffff" stroke="#b7bbc2" />
+  <text x="619" y="635" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#69717c">Sobre o que vamos conversar?</text>
+  <text x="606" y="682.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Mensagem *</text>
+  <rect x="606" y="695" width="542" height="117" rx="6" fill="#ffffff" stroke="#b7bbc2" />
+  <text x="619" y="724" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#69717c">Conte um pouco sobre a oportunidade ou a sua ideia…</text>
+  <text x="1072" y="832.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" fill="#4e545d">0 / 5000</text>
+  <rect x="606" y="854" width="542" height="44" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="620" y="881.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Enviar mensagem</text>
+  <text x="606" y="930" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" fill="#4e545d">Seu nome e e-mail serão usados para responder à sua mensagem. O envio é processado pelo EmailJS.</text>
+  <line x1="32" y1="1097" x2="1232" y2="1097" stroke="#c9cdd3" />
+  <text x="62" y="1142.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#353a42">AB.</text>
+  <text x="62" y="1170.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
+  <text x="472" y="1157.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Sobre mim   Projetos   Experiências   Contato</text>
+  <text x="972" y="1157.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">© 2026 · Álvaro Barbosa</text>
+  <text x="1304" y="163.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#4e545d">04 / CONTATO</text>
+  <text x="1304" y="207" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#252a32">Vamos construir</text>
+  <text x="1304" y="246" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#252a32">algo juntos?</text>
+  <text x="1304" y="297" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Uma oportunidade de estágio, uma ideia ou uma</text>
+  <text x="1304" y="320" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">conversa sobre tecnologia. Estou à disposição</text>
+  <text x="1304" y="343" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">para o próximo passo.</text>
+  <rect x="1304" y="402" width="204" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
+  <text x="1314" y="421.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Aberto ao primeiro estágio</text>
+  <text x="1304" y="472.0" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#252a32">Escolha o seu canal</text>
+  <text x="1304" y="519.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Prefere uma conversa direta? Você também me</text>
+  <text x="1304" y="542.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">encontra aqui.</text>
+  <rect x="1304" y="581.5" width="38" height="38" rx="7" fill="#edf0f2" stroke="#b7bbc2" />
+  <line x1="1316" y1="607.5" x2="1330" y2="593.5" stroke="#525a66" />
+  <line x1="1321" y1="593.5" x2="1330" y2="593.5" stroke="#525a66" />
+  <line x1="1330" y1="593.5" x2="1330" y2="602.5" stroke="#525a66" />
+  <text x="1357" y="593.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">E-mail</text>
+  <text x="1357" y="616.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">silvaalvarobf@gmail.com</text>
+  <line x1="1304" y1="643.5" x2="1644" y2="643.5" stroke="#c9cdd3" />
+  <rect x="1304" y="666.5" width="38" height="38" rx="7" fill="#edf0f2" stroke="#b7bbc2" />
+  <line x1="1316" y1="692.5" x2="1330" y2="678.5" stroke="#525a66" />
+  <line x1="1321" y1="678.5" x2="1330" y2="678.5" stroke="#525a66" />
+  <line x1="1330" y1="678.5" x2="1330" y2="687.5" stroke="#525a66" />
+  <text x="1357" y="678.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Telefone / WhatsApp</text>
+  <text x="1357" y="701.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">(31) 99694-6632</text>
+  <line x1="1304" y1="728.5" x2="1644" y2="728.5" stroke="#c9cdd3" />
+  <rect x="1304" y="751.5" width="38" height="38" rx="7" fill="#edf0f2" stroke="#b7bbc2" />
+  <line x1="1316" y1="777.5" x2="1330" y2="763.5" stroke="#525a66" />
+  <line x1="1321" y1="763.5" x2="1330" y2="763.5" stroke="#525a66" />
+  <line x1="1330" y1="763.5" x2="1330" y2="772.5" stroke="#525a66" />
+  <text x="1357" y="763.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Localização</text>
+  <text x="1357" y="786.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Nova Lima e Belo Horizonte · MG</text>
+  <line x1="1304" y1="813.5" x2="1644" y2="813.5" stroke="#c9cdd3" />
+  <rect x="1304" y="836.5" width="129" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
+  <text x="1318" y="863.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">LinkedIn</text>
+  <rect x="1444" y="836.5" width="118" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
+  <text x="1458" y="863.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">GitHub</text>
+  <text x="1304" y="916.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Copiar e-mail</text>
+  <rect x="1304" y="960.5" width="340" height="720" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
+  <text x="1328" y="1004.5" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#252a32">Deixe sua mensagem</text>
+  <text x="1328" y="1037.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Todos os campos são obrigatórios. Respondo</text>
+  <text x="1328" y="1058.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">assim que possível.</text>
+  <text x="1328" y="1096.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Nome *</text>
+  <rect x="1328" y="1109.5" width="292" height="42" rx="6" fill="#ffffff" stroke="#b7bbc2" />
+  <text x="1341" y="1135.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#69717c">Como posso chamar você?</text>
+  <text x="1328" y="1182.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">E-mail *</text>
+  <rect x="1328" y="1195.5" width="292" height="42" rx="6" fill="#ffffff" stroke="#b7bbc2" />
+  <text x="1341" y="1221.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#69717c">voce@exemplo.com</text>
+  <text x="1328" y="1268.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Assunto *</text>
+  <rect x="1328" y="1281.5" width="292" height="42" rx="6" fill="#ffffff" stroke="#b7bbc2" />
+  <text x="1341" y="1307.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#69717c">Sobre o que vamos conversar?</text>
+  <text x="1328" y="1354.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">Mensagem *</text>
+  <rect x="1328" y="1367.5" width="292" height="117" rx="6" fill="#ffffff" stroke="#b7bbc2" />
+  <text x="1341" y="1396.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#69717c">Conte um pouco sobre a oportunidade ou a</text>
+  <text x="1341" y="1416.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#69717c">sua ideia…</text>
+  <text x="1544" y="1504.5" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" fill="#4e545d">0 / 5000</text>
+  <rect x="1328" y="1526.5" width="292" height="44" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="1342" y="1553.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Enviar mensagem</text>
+  <text x="1328" y="1602.5" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" fill="#4e545d">Seu nome e e-mail serão usados para responder à sua</text>
+  <text x="1328" y="1619.5" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="400" fill="#4e545d">mensagem. O envio é processado pelo EmailJS.</text>
+  <line x1="1280" y1="1740.5" x2="1668" y2="1740.5" stroke="#c9cdd3" />
+  <text x="1310" y="1785.5" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#353a42">AB.</text>
+  <text x="1310" y="1813.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
+  <text x="1310" y="1850.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Sobre mim   Projetos   Experiências   Contato</text>
+  <text x="1310" y="1896.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">© 2026 · Criado por Álvaro Barbosa</text>
+  <text x="32" y="2008" font-family="Inter, Arial, sans-serif" font-size="12" fill="#505862">Wireframe de referência criado em 14/10/2026 · Estrutura implementada · Não é exportação do Figma</text>
+</svg>
