@@ -1,8 +1,10 @@
-import { useState, useEffect, useRef } from 'react';
+import { lazy, Suspense, useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import TechMap from './components/TechMap';
 import AskModal from './components/AskModal';
+import { SKILL_TOOLS } from './data/alvaroProfile';
 import './App.css';
+
+const SkillsGlobe = lazy(() => import('./components/SkillsGlobe'));
 
 const content = {
   pt: {
@@ -230,6 +232,30 @@ const experienceData = [
 const CURRENT_YEAR = new Date().getFullYear();
 const CV_URL = `${import.meta.env.BASE_URL}curriculo-alvaro-barbosa.pdf`;
 const CONTACT_EMAIL = 'silvaalvarobf@gmail.com';
+const skillLinks = {
+  java: 'https://www.java.com/',
+  python: 'https://www.python.org/',
+  cpp: 'https://isocpp.org/',
+  cs: 'https://learn.microsoft.com/dotnet/csharp/',
+  js: 'https://developer.mozilla.org/docs/Web/JavaScript',
+  spring: 'https://spring.io/projects/spring-boot',
+  react: 'https://react.dev/',
+  vite: 'https://vite.dev/',
+  html: 'https://developer.mozilla.org/docs/Web/HTML',
+  css: 'https://developer.mozilla.org/docs/Web/CSS',
+  mysql: 'https://www.mysql.com/',
+  postgres: 'https://www.postgresql.org/',
+  mongodb: 'https://www.mongodb.com/',
+  git: 'https://git-scm.com/',
+  github: 'https://github.com/Alvarodocxp',
+  vscode: 'https://code.visualstudio.com/',
+};
+
+const globeSkills = SKILL_TOOLS.map((skill) => ({
+  ...skill,
+  iconUrl: `https://skillicons.dev/icons?i=${skill.id}&theme=dark`,
+  link: skillLinks[skill.id] || 'https://skillicons.dev/',
+}));
 
 function Icon({ name, size = 18 }) {
   const props = {
@@ -559,7 +585,9 @@ function App() {
             </div>
 
             <div className="about-tech-side fade-in">
-              <TechMap lang={lang} />
+              <Suspense fallback={<div className="skills-globe-loading">Carregando tecnologias...</div>}>
+                <SkillsGlobe skills={globeSkills} lang={lang} />
+              </Suspense>
             </div>
           </div>
         </div>
