@@ -2,6 +2,8 @@
 
 Os quatro SVGs representam a interface simplificada em desktop (1200 px) e mobile (388 px). São referências de média fidelidade, com formas e textos editáveis, criadas a partir das páginas implementadas. Os textos foram condensados em alguns blocos para facilitar a leitura.
 
+https://www.figma.com/design/CWnq4BugBfnHdXvTuWFP3i/Sem-t%C3%ADtulo?node-id=0-1&t=Wr8u3gDI2CgVpwHU-1
+
 Os arquivos podem ser importados no [Figma compartilhado](https://www.figma.com/design/CWnq4BugBfnHdXvTuWFP3i/Sem-t%C3%ADtulo?node-id=0-1). Eles não são exportações desse arquivo; a correspondência com seus frames permanece pendente de revisão.
 
 | Página | Wireframe | Conteúdo |

@@ -4,7 +4,7 @@ export const RESUME_DATA = {
   localizacao: 'Nova Lima, Alphaville - MG',
   telefone: '(31) 99694-6632',
   email: 'silvaalvarobf@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/alvaro-barbosa',
+  linkedin: 'https://www.linkedin.com/in/alvarobarbosaengenhariasoftware/',
   github: 'https://github.com/Alvarodocxp',
 
   curso: 'Engenharia de Software',

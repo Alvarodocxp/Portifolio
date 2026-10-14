@@ -180,8 +180,13 @@
 .hero-actions {
   display: flex;
   gap: 12px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; 
   margin-top: 30px;
+}
+
+.hero-actions .button {
+  white-space: nowrap; 
+  padding-inline: 16px; 
 }
 .hero-links {
   display: flex;
@@ -577,9 +582,15 @@
   .hero-copy h1 {
     font-size: 62px;
   }
+
+@media (max-width: 480px) {
+  .hero-actions {
+    flex-wrap: wrap;
+  }
   .hero-actions .button {
     width: 100%;
   }
+}
   .skill-grid {
     grid-template-columns: 1fr;
   }
