@@ -1,32 +1,34 @@
-import { useState, useEffect } from 'react';
-import { SKILL_TOOLS } from '../data/alvaroProfile';
-import './TechMap.css';
+import { useState, useEffect } from "react";
+import { SKILL_TOOLS } from "../data/alvaroProfile";
+import "./TechMap.css";
 
-export default function TechMap({ lang = 'pt' }) {
-  const [activeCategory, setActiveCategory] = useState('all');
+export default function TechMap({ lang = "pt" }) {
+  const [activeCategory, setActiveCategory] = useState("all");
   const [selectedTool, setSelectedTool] = useState(null);
   const [githubLanguages, setGithubLanguages] = useState([]);
 
   const categories = [
-    { id: 'all', label: lang === 'pt' ? 'Todas' : 'All' },
-    { id: 'languages', label: lang === 'pt' ? 'Linguagens' : 'Languages' },
-    { id: 'web', label: lang === 'pt' ? 'Web' : 'Web' },
-    { id: 'database', label: lang === 'pt' ? 'Dados' : 'Data' },
-    { id: 'tools', label: lang === 'pt' ? 'Ferramentas' : 'Tools' },
+    { id: "all", label: lang === "pt" ? "Todas" : "All" },
+    { id: "languages", label: lang === "pt" ? "Linguagens" : "Languages" },
+    { id: "web", label: lang === "pt" ? "Web" : "Web" },
+    { id: "database", label: lang === "pt" ? "Dados" : "Data" },
+    { id: "tools", label: lang === "pt" ? "Ferramentas" : "Tools" },
   ];
 
   const filteredTools =
-    activeCategory === 'all'
+    activeCategory === "all"
       ? SKILL_TOOLS
       : SKILL_TOOLS.filter((tool) => tool.category === activeCategory);
 
-  const apiIconsString = filteredTools.map((tool) => tool.id).join(',');
+  const apiIconsString = filteredTools.map((tool) => tool.id).join(",");
   const skillIconsApiUrl = `https://skillicons.dev/icons?i=${apiIconsString}&theme=dark`;
 
   useEffect(() => {
     let isMounted = true;
 
-    fetch('https://api.github.com/users/Alvarodocxp/repos?per_page=10&sort=updated')
+    fetch(
+      "https://api.github.com/users/Alvarodocxp/repos?per_page=10&sort=updated",
+    )
       .then((res) => (res.ok ? res.json() : []))
       .then((repos) => {
         if (!isMounted || !Array.isArray(repos)) return;
@@ -36,9 +38,7 @@ export default function TechMap({ lang = 'pt' }) {
         });
         setGithubLanguages(Array.from(langs));
       })
-      .catch(() => {
-        // The public GitHub API can be rate limited, so the local stack remains the source of truth.
-      });
+      .catch(() => {});
 
     return () => {
       isMounted = false;
@@ -49,26 +49,37 @@ export default function TechMap({ lang = 'pt' }) {
     <div className="tech-map-container">
       <div className="tech-map-header">
         <div className="tech-map-title">
-          <span>{lang === 'pt' ? 'Tecnologias que sei' : 'Technologies I know'}</span>
+          <span>
+            {lang === "pt" ? "Tecnologias que sei" : "Technologies I know"}
+          </span>
           <strong>{filteredTools.length}</strong>
         </div>
 
         {githubLanguages.length > 0 && (
           <div
             className="tech-map-gh-badge"
-            title={lang === 'pt' ? 'Linguagens detectadas nos repositórios públicos' : 'Languages detected in public repositories'}
+            title={
+              lang === "pt"
+                ? "Linguagens detectadas nos repositórios públicos"
+                : "Languages detected in public repositories"
+            }
           >
             <span className="tech-gh-dot" />
-            <span>{githubLanguages.slice(0, 3).join(', ')}</span>
+            <span>{githubLanguages.slice(0, 3).join(", ")}</span>
           </div>
         )}
       </div>
 
-      <div className="tech-map-filters" aria-label={lang === 'pt' ? 'Filtrar tecnologias' : 'Filter technologies'}>
+      <div
+        className="tech-map-filters"
+        aria-label={
+          lang === "pt" ? "Filtrar tecnologias" : "Filter technologies"
+        }
+      >
         {categories.map((cat) => (
           <button
             key={cat.id}
-            className={`tech-filter-btn ${activeCategory === cat.id ? 'active' : ''}`}
+            className={`tech-filter-btn ${activeCategory === cat.id ? "active" : ""}`}
             onClick={() => {
               setActiveCategory(cat.id);
               setSelectedTool(null);
@@ -81,13 +92,17 @@ export default function TechMap({ lang = 'pt' }) {
 
       <div className="tech-map-banner-card">
         <div className="tech-banner-label">
-          <span>{lang === 'pt' ? 'Stack visual' : 'Visual stack'}</span>
+          <span>{lang === "pt" ? "Stack visual" : "Visual stack"}</span>
           <code>{filteredTools.length} skills</code>
         </div>
         <div className="tech-banner-img-wrapper">
           <img
             src={skillIconsApiUrl}
-            alt={lang === 'pt' ? 'Mapa de ferramentas de Álvaro Barbosa' : 'Álvaro Barbosa tool map'}
+            alt={
+              lang === "pt"
+                ? "Mapa de ferramentas de Álvaro Barbosa"
+                : "Álvaro Barbosa tool map"
+            }
             className="tech-banner-img"
             loading="lazy"
           />
@@ -103,11 +118,16 @@ export default function TechMap({ lang = 'pt' }) {
             <button
               type="button"
               key={tool.id}
-              className={`tech-tool-card ${isSelected ? 'selected' : ''}`}
+              className={`tech-tool-card ${isSelected ? "selected" : ""}`}
               onClick={() => setSelectedTool(isSelected ? null : tool)}
               onMouseEnter={() => setSelectedTool(tool)}
             >
-              <img src={singleIconUrl} alt="" className="tech-tool-icon" loading="lazy" />
+              <img
+                src={singleIconUrl}
+                alt=""
+                className="tech-tool-icon"
+                loading="lazy"
+              />
               <span className="tech-tool-info">
                 <span className="tech-tool-name">{tool.name}</span>
                 <span className="tech-tool-category">{tool.category}</span>

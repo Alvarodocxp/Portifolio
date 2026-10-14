@@ -1,233 +1,189 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="2700" viewBox="0 0 1700 2700" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" role="img" aria-labelledby="title desc" height="1690" viewBox="0 0 1700 1690">
   <title id="title">Sobre mim — wireframe de média fidelidade</title>
-  <desc id="desc">Referência monocromática da página Sobre mim em desktop e mobile, com apresentação, currículo e habilidades. Produzida a partir da implementação, sem validar o arquivo Figma.</desc>
-  <rect width="1700" height="2700" fill="#eceef1" />
-  <text x="32" y="30.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#353a42">SOBRE MIM · DESKTOP · 1200 px</text>
-  <rect x="32" y="48" width="1200" height="1456.5" rx="12" fill="#ffffff" stroke="#969da7" />
-  <text x="56" y="87.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c">AB.</text>
-  <text x="116" y="78.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Álvaro Barbosa</text>
-  <text x="116" y="94.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="500" fill="#4e545d">DESENVOLVEDOR</text>
-  <text x="472" y="83.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#4e545d">Início   Sobre mim   Projetos   Experiências   Contato</text>
+  <desc id="desc">Referências desktop e mobile da interface simplificada. Produzidas a partir da implementação; não são exportações do Figma.</desc>
+  <rect x="0" y="0" width="1700" height="1690" rx="0" fill="#eceef1" stroke="none" />
+  <text x="32" y="29" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#353a42" text-anchor="start">SOBRE MIM · DESKTOP · 1200 px</text>
+  <rect x="32" y="48" width="1200" height="882" rx="12" fill="#ffffff" stroke="#969da7" />
+  <text x="56" y="87" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c" text-anchor="start">AB.</text>
+  <text x="432" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Início</text>
+  <text x="507" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Sobre mim</text>
+  <text x="620" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Projetos</text>
+  <text x="720" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Experiências</text>
+  <text x="860" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Contato</text>
   <rect x="1106" y="62" width="40" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
-  <text x="1116" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">PT</text>
-  <rect x="1152" y="62" width="40" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1162" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EN</text>
+  <text x="1116" y="82" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">PT</text>
+  <rect x="1152" y="62" width="40" height="29" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1162" y="82" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">EN</text>
   <line x1="32" y1="112" x2="1232" y2="112" stroke="#c9cdd3" />
-  <text x="1280" y="30.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#353a42">SOBRE MIM · MOBILE · 388 px</text>
-  <rect x="1280" y="48" width="388" height="2452.0" rx="12" fill="#ffffff" stroke="#969da7" />
-  <text x="1304" y="87.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c">AB.</text>
+  <text x="92" y="174" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700" fill="#252a32" text-anchor="start">Sobre mim</text>
+  <text x="92" y="226" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Sou estudante do 2º período de Engenharia de Software na PUC Minas, campus</text>
+  <text x="92" y="249" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Lourdes, com conclusão prevista para 2029. Tenho interesse em desenvolvimento</text>
+  <text x="92" y="272" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">web, automação e bancos de dados.</text>
+  <text x="92" y="312" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Busco meu primeiro estágio em desenvolvimento para aplicar meus conhecimentos</text>
+  <text x="92" y="335" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">e aprender com a equipe. Moro em Nova Lima, tenho inglês avançado e</text>
+  <text x="92" y="358" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">disponibilidade pela manhã ou à tarde.</text>
+  <rect x="812" y="212" width="360" height="190" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="832" y="251" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#252a32" text-anchor="start">Currículo</text>
+  <rect x="832" y="275" width="320" height="42" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="846" y="301.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Visualizar</text>
+  <rect x="832" y="331" width="320" height="42" rx="7" fill="#ffffff" stroke="#bfc5ce" />
+  <text x="846" y="357.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42" text-anchor="start">Baixar PDF</text>
+  <text x="92" y="460" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#252a32" text-anchor="start">Tecnologias</text>
+  <rect x="987" y="430" width="185" height="42" rx="7" fill="#ffffff" stroke="#bfc5ce" />
+  <text x="1001" y="456.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42" text-anchor="start">Explorar globo 3D</text>
+  <rect x="92" y="488" width="59" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="104" y="508" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Todas</text>
+  <rect x="159" y="488" width="94" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="171" y="508" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Linguagens</text>
+  <rect x="261" y="488" width="48" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="273" y="508" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Web</text>
+  <rect x="317" y="488" width="129" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="329" y="508" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Bancos de dados</text>
+  <rect x="454" y="488" width="101" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="466" y="508" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Ferramentas</text>
+  <rect x="92.0" y="542" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="106.0" y="576" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Java</text>
+  <text x="333.0" y="576" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="365.0" y="542" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="379.0" y="576" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Python</text>
+  <text x="606.0" y="576" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="638.0" y="542" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="652.0" y="576" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">C++</text>
+  <text x="879.0" y="576" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="911.0" y="542" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="925.0" y="576" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">C#</text>
+  <text x="1152.0" y="576" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="92.0" y="612" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="106.0" y="646" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">JavaScript</text>
+  <text x="333.0" y="646" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="365.0" y="612" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="379.0" y="646" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Spring Boot</text>
+  <text x="606.0" y="646" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="638.0" y="612" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="652.0" y="646" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">React</text>
+  <text x="879.0" y="646" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="911.0" y="612" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="925.0" y="646" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Vite</text>
+  <text x="1152.0" y="646" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="92.0" y="682" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="106.0" y="716" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">HTML5</text>
+  <text x="333.0" y="716" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="365.0" y="682" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="379.0" y="716" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">CSS3</text>
+  <text x="606.0" y="716" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="638.0" y="682" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="652.0" y="716" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">MySQL</text>
+  <text x="879.0" y="716" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="911.0" y="682" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="925.0" y="716" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">PostgreSQL</text>
+  <text x="1152.0" y="716" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="92.0" y="752" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="106.0" y="786" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">MongoDB</text>
+  <text x="333.0" y="786" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="365.0" y="752" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="379.0" y="786" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Git</text>
+  <text x="606.0" y="786" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="638.0" y="752" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="652.0" y="786" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">GitHub</text>
+  <text x="879.0" y="786" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="911.0" y="752" width="261.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="925.0" y="786" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">VS Code</text>
+  <text x="1152.0" y="786" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <line x1="32" y1="862" x2="1232" y2="862" stroke="#c9cdd3" />
+  <text x="92" y="902" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">© 2026 Álvaro Barbosa</text>
+  <text x="1280" y="29" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#353a42" text-anchor="start">SOBRE MIM · MOBILE · 388 px</text>
+  <rect x="1280" y="48" width="388" height="1566" rx="12" fill="#ffffff" stroke="#969da7" />
+  <text x="1304" y="87" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c" text-anchor="start">AB.</text>
   <rect x="1517" y="62" width="37" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
-  <text x="1527" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">PT</text>
-  <rect x="1558" y="62" width="37" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1568" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EN</text>
-  <rect x="1607" y="60" width="38" height="38" rx="7" fill="#f4f5f6" stroke="#c2c7ce" />
+  <text x="1527" y="82" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">PT</text>
+  <rect x="1558" y="62" width="37" height="29" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1568" y="82" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">EN</text>
+  <rect x="1607" y="60" width="38" height="38" rx="7" fill="#ffffff" stroke="#c7cbd1" />
   <line x1="1617" y1="71" x2="1635" y2="71" stroke="#525a66" />
   <line x1="1617" y1="78" x2="1635" y2="78" stroke="#525a66" />
   <line x1="1617" y1="85" x2="1635" y2="85" stroke="#525a66" />
   <line x1="1280" y1="112" x2="1668" y2="112" stroke="#c9cdd3" />
-  <text x="92" y="163.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#4e545d">01 / SOBRE MIM</text>
-  <text x="92" y="215" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="#252a32">Tecnologia com propósito.</text>
-  <text x="92" y="286" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#4e545d">Curiosidade para aprender. Dedicação para construir. Conheça um pouco da minha trajetória e</text>
-  <text x="92" y="312" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#4e545d">de onde quero chegar.</text>
-  <text x="92" y="396.0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#252a32">Muito prazer, Álvaro.</text>
-  <text x="92" y="453.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">Sou estudante do 2º período de Engenharia de Software na PUC Minas, campus</text>
-  <text x="92" y="479.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">Lourdes, e moro em Nova Lima, Minas Gerais. Minha formação começou em</text>
-  <text x="92" y="505.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">fevereiro de 2026, com conclusão prevista para dezembro de 2029.</text>
-  <text x="92" y="546.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">Tenho interesse em desenvolvimento web, arquitetura de software, automação e</text>
-  <text x="92" y="572.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">bancos de dados. Coloco meus conhecimentos em prática em projetos acadêmicos</text>
-  <text x="92" y="598.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">com Java e Spring Boot, interfaces com React, jogos com Python e Lua e</text>
-  <text x="92" y="624.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">ferramentas de análise com MQL5.</text>
-  <text x="92" y="665.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">Busco meu primeiro estágio em desenvolvimento para contribuir com uma equipe,</text>
-  <text x="92" y="691.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">aplicar minha base técnica e evoluir ao lado de profissionais experientes.</text>
-  <text x="92" y="717.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">Tenho disponibilidade pela manhã ou à tarde, português nativo e inglês</text>
-  <text x="92" y="743.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#4e545d">avançado.</text>
-  <text x="92" y="781.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Conheça minha trajetória →</text>
-  <rect x="792" y="374" width="380" height="357" rx="10" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="815" y="413.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">MEU CURRÍCULO                                    PDF</text>
-  <text x="815" y="459.0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#252a32">Álvaro Barbosa</text>
-  <text x="815" y="490.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
-  <line x1="815" y1="523" x2="1149" y2="523" stroke="#c9cdd3" />
-  <text x="815" y="554.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Objetivo: primeiro estágio em desenvolvimento</text>
-  <text x="815" y="599.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Disponibilidade: manhã ou tarde</text>
-  <rect x="815" y="625" width="334" height="44" rx="7" fill="#353a42" stroke="#353a42" />
-  <text x="829" y="652.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Visualizar currículo</text>
-  <rect x="815" y="679" width="334" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="829" y="706.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Baixar PDF</text>
-  <line x1="92" y1="849.0" x2="1172" y2="849.0" stroke="#c9cdd3" />
-  <text x="92" y="887.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">MINHA CAIXA DE FERRAMENTAS</text>
-  <text x="92" y="927.0" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700" fill="#252a32">Tecnologias &amp; habilidades</text>
-  <rect x="987" y="920.5" width="185" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="1001" y="947.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Explorar globo 3D</text>
-  <rect x="92" y="981.5" width="59" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
-  <text x="102" y="1000.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Todas</text>
-  <rect x="159" y="981.5" width="94" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="169" y="1000.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Linguagens</text>
-  <rect x="261" y="981.5" width="45" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="271" y="1000.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Web</text>
-  <rect x="314" y="981.5" width="129" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="324" y="1000.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Bancos de dados</text>
-  <rect x="451" y="981.5" width="101" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="461" y="1000.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Ferramentas</text>
-  <rect x="92.0" y="1030.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="105.0" y="1057.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Java</text>
-  <text x="105.0" y="1078.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="365.5" y="1030.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="378.5" y="1057.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Python</text>
-  <text x="378.5" y="1078.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="639.0" y="1030.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="652.0" y="1057.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">C++</text>
-  <text x="652.0" y="1078.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="912.5" y="1030.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="925.5" y="1057.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">C#</text>
-  <text x="925.5" y="1078.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="92.0" y="1108.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="105.0" y="1135.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">JavaScript</text>
-  <text x="105.0" y="1156.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="365.5" y="1108.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="378.5" y="1135.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Spring Boot</text>
-  <text x="378.5" y="1156.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="639.0" y="1108.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="652.0" y="1135.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">React</text>
-  <text x="652.0" y="1156.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="912.5" y="1108.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="925.5" y="1135.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Vite</text>
-  <text x="925.5" y="1156.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="92.0" y="1186.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="105.0" y="1213.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">HTML5</text>
-  <text x="105.0" y="1234.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="365.5" y="1186.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="378.5" y="1213.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">CSS3</text>
-  <text x="378.5" y="1234.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="639.0" y="1186.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="652.0" y="1213.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">MySQL</text>
-  <text x="652.0" y="1234.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="912.5" y="1186.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="925.5" y="1213.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">PostgreSQL</text>
-  <text x="925.5" y="1234.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="92.0" y="1264.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="105.0" y="1291.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">MongoDB</text>
-  <text x="105.0" y="1312.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="365.5" y="1264.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="378.5" y="1291.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Git</text>
-  <text x="378.5" y="1312.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="639.0" y="1264.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="652.0" y="1291.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">GitHub</text>
-  <text x="652.0" y="1312.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="912.5" y="1264.5" width="259.5" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="925.5" y="1291.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">VS Code</text>
-  <text x="925.5" y="1312.5" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <line x1="32" y1="1384.5" x2="1232" y2="1384.5" stroke="#c9cdd3" />
-  <text x="62" y="1429.5" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#353a42">AB.</text>
-  <text x="62" y="1457.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
-  <text x="472" y="1444.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Sobre mim   Projetos   Experiências   Contato</text>
-  <text x="972" y="1444.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">© 2026 · Álvaro Barbosa</text>
-  <text x="1304" y="163.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#4e545d">01 / SOBRE MIM</text>
-  <text x="1304" y="207" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#252a32">Tecnologia com</text>
-  <text x="1304" y="246" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#252a32">propósito.</text>
-  <text x="1304" y="297" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Curiosidade para aprender. Dedicação para</text>
-  <text x="1304" y="320" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">construir. Conheça um pouco da minha</text>
-  <text x="1304" y="343" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">trajetória e de onde quero chegar.</text>
-  <text x="1304" y="424.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#252a32">Muito prazer, Álvaro.</text>
-  <text x="1304" y="473.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Sou estudante do 2º período de Engenharia de</text>
-  <text x="1304" y="496.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Software na PUC Minas, campus Lourdes, e moro</text>
-  <text x="1304" y="519.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">em Nova Lima, Minas Gerais. Minha formação</text>
-  <text x="1304" y="542.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">começou em fevereiro de 2026, com conclusão</text>
-  <text x="1304" y="565.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">prevista para dezembro de 2029.</text>
-  <text x="1304" y="603.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Tenho interesse em desenvolvimento web,</text>
-  <text x="1304" y="626.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">arquitetura de software, automação e bancos</text>
-  <text x="1304" y="649.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">de dados. Coloco meus conhecimentos em</text>
-  <text x="1304" y="672.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">prática em projetos acadêmicos com Java e</text>
-  <text x="1304" y="695.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Spring Boot, interfaces com React, jogos com</text>
-  <text x="1304" y="718.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Python e Lua e ferramentas de análise com</text>
-  <text x="1304" y="741.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">MQL5.</text>
-  <text x="1304" y="779.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Busco meu primeiro estágio em desenvolvimento</text>
-  <text x="1304" y="802.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">para contribuir com uma equipe, aplicar minha</text>
-  <text x="1304" y="825.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">base técnica e evoluir ao lado de</text>
-  <text x="1304" y="848.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">profissionais experientes. Tenho</text>
-  <text x="1304" y="871.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">disponibilidade pela manhã ou à tarde,</text>
-  <text x="1304" y="894.5" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">português nativo e inglês avançado.</text>
-  <text x="1304" y="929.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Conheça minha trajetória →</text>
-  <rect x="1304" y="969.5" width="340" height="357" rx="10" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1327" y="1008.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">MEU CURRÍCULO</text>
-  <text x="1327" y="1025.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">PDF</text>
-  <text x="1327" y="1054.5" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#252a32">Álvaro Barbosa</text>
-  <text x="1327" y="1085.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
-  <line x1="1327" y1="1118.5" x2="1621" y2="1118.5" stroke="#c9cdd3" />
-  <text x="1327" y="1149.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Objetivo: primeiro estágio em</text>
-  <text x="1327" y="1169.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">desenvolvimento</text>
-  <text x="1327" y="1194.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Disponibilidade: manhã ou tarde</text>
-  <rect x="1327" y="1220.5" width="294" height="44" rx="7" fill="#353a42" stroke="#353a42" />
-  <text x="1341" y="1247.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Visualizar currículo</text>
-  <rect x="1327" y="1274.5" width="294" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="1341" y="1301.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Baixar PDF</text>
-  <line x1="1304" y1="1362.5" x2="1644" y2="1362.5" stroke="#c9cdd3" />
-  <text x="1304" y="1400.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">MINHA CAIXA DE FERRAMENTAS</text>
-  <text x="1304" y="1440.5" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#252a32">Tecnologias &amp; habilidades</text>
-  <rect x="1304" y="1482.0" width="185" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="1318" y="1509.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Explorar globo 3D</text>
-  <rect x="1304" y="1547.0" width="59" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
-  <text x="1314" y="1566.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Todas</text>
-  <rect x="1371" y="1547.0" width="94" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1381" y="1566.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Linguagens</text>
-  <rect x="1473" y="1547.0" width="45" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1483" y="1566.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Web</text>
-  <rect x="1304" y="1585.0" width="129" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1314" y="1604.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Bancos de dados</text>
-  <rect x="1441" y="1585.0" width="101" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1451" y="1604.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Ferramentas</text>
-  <rect x="1304.0" y="1634.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1317.0" y="1661.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Java</text>
-  <text x="1317.0" y="1682.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1481.0" y="1634.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1494.0" y="1661.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Python</text>
-  <text x="1494.0" y="1682.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1304.0" y="1712.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1317.0" y="1739.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">C++</text>
-  <text x="1317.0" y="1760.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1481.0" y="1712.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1494.0" y="1739.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">C#</text>
-  <text x="1494.0" y="1760.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1304.0" y="1790.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1317.0" y="1817.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">JavaScript</text>
-  <text x="1317.0" y="1838.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1481.0" y="1790.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1494.0" y="1817.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Spring Boot</text>
-  <text x="1494.0" y="1838.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1304.0" y="1868.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1317.0" y="1895.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">React</text>
-  <text x="1317.0" y="1916.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1481.0" y="1868.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1494.0" y="1895.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Vite</text>
-  <text x="1494.0" y="1916.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1304.0" y="1946.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1317.0" y="1973.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">HTML5</text>
-  <text x="1317.0" y="1994.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1481.0" y="1946.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1494.0" y="1973.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">CSS3</text>
-  <text x="1494.0" y="1994.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1304.0" y="2024.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1317.0" y="2051.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">MySQL</text>
-  <text x="1317.0" y="2072.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1481.0" y="2024.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1494.0" y="2051.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">PostgreSQL</text>
-  <text x="1494.0" y="2072.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1304.0" y="2102.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1317.0" y="2129.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">MongoDB</text>
-  <text x="1317.0" y="2150.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1481.0" y="2102.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1494.0" y="2129.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Git</text>
-  <text x="1494.0" y="2150.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1304.0" y="2180.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1317.0" y="2207.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">GitHub</text>
-  <text x="1317.0" y="2228.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <rect x="1481.0" y="2180.0" width="163.0" height="64" rx="8" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1494.0" y="2207.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">VS Code</text>
-  <text x="1494.0" y="2228.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="400" fill="#4e545d">Tecnologia · documentação →</text>
-  <line x1="1280" y1="2300.0" x2="1668" y2="2300.0" stroke="#c9cdd3" />
-  <text x="1310" y="2345.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#353a42">AB.</text>
-  <text x="1310" y="2373.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
-  <text x="1310" y="2410.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Sobre mim   Projetos   Experiências   Contato</text>
-  <text x="1310" y="2456.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">© 2026 · Criado por Álvaro Barbosa</text>
-  <text x="32" y="2678" font-family="Inter, Arial, sans-serif" font-size="12" fill="#505862">Wireframe de referência criado em 14/10/2026 · Estrutura implementada · Não é exportação do Figma</text>
+  <text x="1304" y="174" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#252a32" text-anchor="start">Sobre mim</text>
+  <text x="1304" y="226" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Sou estudante do 2º período de</text>
+  <text x="1304" y="249" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Engenharia de Software na PUC Minas,</text>
+  <text x="1304" y="272" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">campus Lourdes, com conclusão prevista</text>
+  <text x="1304" y="295" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">para 2029. Tenho interesse em</text>
+  <text x="1304" y="318" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">desenvolvimento web, automação e bancos</text>
+  <text x="1304" y="341" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">de dados.</text>
+  <text x="1304" y="381" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Busco meu primeiro estágio em</text>
+  <text x="1304" y="404" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">desenvolvimento para aplicar meus</text>
+  <text x="1304" y="427" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">conhecimentos e aprender com a equipe.</text>
+  <text x="1304" y="450" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Moro em Nova Lima, tenho inglês avançado</text>
+  <text x="1304" y="473" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">e disponibilidade pela manhã ou à tarde.</text>
+  <rect x="1304" y="525" width="340" height="190" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1324" y="564" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#252a32" text-anchor="start">Currículo</text>
+  <rect x="1324" y="588" width="300" height="42" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="1338" y="614.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Visualizar</text>
+  <rect x="1324" y="644" width="300" height="42" rx="7" fill="#ffffff" stroke="#bfc5ce" />
+  <text x="1338" y="670.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42" text-anchor="start">Baixar PDF</text>
+  <text x="1304" y="772" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#252a32" text-anchor="start">Tecnologias</text>
+  <rect x="1304" y="792" width="185" height="42" rx="7" fill="#ffffff" stroke="#bfc5ce" />
+  <text x="1318" y="818.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42" text-anchor="start">Explorar globo 3D</text>
+  <rect x="1304" y="854" width="59" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="1316" y="874" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Todas</text>
+  <rect x="1371" y="854" width="94" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1383" y="874" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Linguagens</text>
+  <rect x="1473" y="854" width="48" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1485" y="874" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Web</text>
+  <rect x="1304" y="892" width="129" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1316" y="912" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Bancos de dados</text>
+  <rect x="1441" y="892" width="101" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1453" y="912" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Ferramentas</text>
+  <rect x="1304.0" y="946" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1318.0" y="980" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Java</text>
+  <text x="1448.0" y="980" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1480.0" y="946" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1494.0" y="980" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Python</text>
+  <text x="1624.0" y="980" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1304.0" y="1016" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1318.0" y="1050" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">C++</text>
+  <text x="1448.0" y="1050" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1480.0" y="1016" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1494.0" y="1050" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">C#</text>
+  <text x="1624.0" y="1050" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1304.0" y="1086" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1318.0" y="1120" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">JavaScript</text>
+  <text x="1448.0" y="1120" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1480.0" y="1086" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1494.0" y="1120" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Spring Boot</text>
+  <text x="1624.0" y="1120" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1304.0" y="1156" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1318.0" y="1190" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">React</text>
+  <text x="1448.0" y="1190" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1480.0" y="1156" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1494.0" y="1190" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Vite</text>
+  <text x="1624.0" y="1190" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1304.0" y="1226" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1318.0" y="1260" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">HTML5</text>
+  <text x="1448.0" y="1260" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1480.0" y="1226" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1494.0" y="1260" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">CSS3</text>
+  <text x="1624.0" y="1260" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1304.0" y="1296" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1318.0" y="1330" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">MySQL</text>
+  <text x="1448.0" y="1330" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1480.0" y="1296" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1494.0" y="1330" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">PostgreSQL</text>
+  <text x="1624.0" y="1330" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1304.0" y="1366" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1318.0" y="1400" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">MongoDB</text>
+  <text x="1448.0" y="1400" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1480.0" y="1366" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1494.0" y="1400" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">Git</text>
+  <text x="1624.0" y="1400" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1304.0" y="1436" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1318.0" y="1470" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">GitHub</text>
+  <text x="1448.0" y="1470" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <rect x="1480.0" y="1436" width="164.0" height="56" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1494.0" y="1470" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#505862" text-anchor="start">VS Code</text>
+  <text x="1624.0" y="1470" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">→</text>
+  <line x1="1280" y1="1546" x2="1668" y2="1546" stroke="#c9cdd3" />
+  <text x="1304" y="1586" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">© 2026 Álvaro Barbosa</text>
+  <text x="32" y="1666" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">Wireframe da interface simplificada · Referência para revisão e importação no Figma</text>
 </svg>

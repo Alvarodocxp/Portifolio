@@ -32,14 +32,14 @@ O gradiente de marca segue verde-água → azul → laranja e deve ficar restrit
 | --- | --- | --- |
 | Família principal | `--font-sans` | Inter com fontes de sistema como alternativa |
 | Família técnica | `--font-mono` | Identificadores e pequenas informações técnicas |
-| Título de página | `--text-display` | Escala fluida de 40 a 92 px; entrelinha 1,08 |
-| Título de seção | `--text-heading` | Escala fluida de 28 a 44 px; entrelinha 1,2 |
+| Título de página | `--text-display` | Escala fluida de 32 a 56 px; entrelinha 1,08 |
+| Título de seção | `--text-heading` | Escala fluida de 24 a 32 px; entrelinha 1,2 |
 | Texto principal | `--text-base` | 16 px; entrelinha 1,7 |
 | Descrição de página | Escala fluida | 16 a 18 px; largura máxima de 65 caracteres |
 | Botões e metadados | `--text-sm` | 14 px |
 | Etiquetas e sobrancelhas | `--text-xs` | 12 px; texto curto |
 
-Cada página usa um único `h1`. Seções usam `h2`; títulos de cartões usam `h3`. A classe visual não muda a hierarquia semântica. Textos contínuos mantêm largura de leitura com `--reading-width`. Evite títulos inteiros em maiúsculas; a classe `.eyebrow` reserva esse tratamento para rótulos breves.
+Cada página usa um único `h1`. Seções e cartões logo abaixo do título usam `h2`; cartões dentro de uma seção usam `h3`. A classe visual não muda a hierarquia semântica. Textos contínuos mantêm largura de leitura com `--reading-width`. Evite títulos inteiros em maiúsculas; a classe `.eyebrow` reserva esse tratamento para rótulos breves.
 
 ## Espaçamento, formas e layout
 
@@ -81,9 +81,7 @@ Combine sempre `.button` com uma variante. Use `<button>` para ações locais e 
 <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>
 <main id="conteudo" className="container" tabIndex={-1}>
   <header className="page-header">
-    <p className="eyebrow">Projetos</p>
-    <h1>Ideias que ganham forma.</h1>
-    <p className="page-description">Contexto, decisões e resultados de cada projeto.</p>
+    <h1>Projetos</h1>
   </header>
   <article className="panel">
     <span className="tag">React</span>
@@ -109,3 +107,7 @@ Use labels visíveis nos formulários, mensagens claras, ordem de foco previsív
 ## Critérios de consistência
 
 Novas páginas reutilizam o mesmo cabeçalho, container, escala tipográfica e componentes de ação. Adicione um token quando houver uma função recorrente; evite um token para cada exceção. Documente alterações visuais neste arquivo e valide os estados interativos em todas as páginas afetadas.
+
+## Densidade de conteúdo
+
+Use títulos diretos, sem slogans, numeração decorativa ou subtítulos de apresentação. A página inicial concentra uma apresentação breve e os acessos a projetos e contato. Cada projeto usa uma única descrição; tecnologias, data e GitHub complementam o conteúdo. O rodapé contém apenas o copyright e o assistente usa um botão de ícone com nome acessível. Informações necessárias à atividade e labels do formulário permanecem visíveis.

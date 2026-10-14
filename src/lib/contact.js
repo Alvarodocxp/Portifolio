@@ -16,7 +16,6 @@ const isPlaceholder = (value) =>
     value,
   );
 
-/** Receives Vite's public environment only; private EmailJS keys are never used. */
 export function getContactConfig(env = {}) {
   const config = Object.fromEntries(
     Object.entries(CONFIG_NAMES).map(([field, name]) => [
@@ -40,7 +39,6 @@ export function normalizeContact(values = {}) {
   );
 }
 
-/** Error codes stay independent of the selected interface language. */
 export function validateContact(values) {
   const contact = normalizeContact(values);
   const errors = {};
@@ -61,7 +59,6 @@ export function validateContact(values) {
   return errors;
 }
 
-/** Supports the supplied example's template variables and existing form templates. */
 export function buildContactParams(values, date = new Date()) {
   const { name, email, subject, message } = normalizeContact(values);
   return {
@@ -109,7 +106,6 @@ export function classifyContactError(error) {
   return "sendFailed";
 }
 
-/** Only resolves after EmailJS confirms the request, with no simulated mailto success. */
 export async function sendContactMessage({ client, config, values, date }) {
   if (!config?.ready) throw new ContactError("configuration");
   if (Object.keys(validateContact(values)).length)

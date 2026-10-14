@@ -1,7 +1,6 @@
 import { expect, test } from "@playwright/test";
 
 test.beforeEach(async ({ page }) => {
-  // Every EmailJS call is intercepted. This suite never sends a real message.
   await page.route("https://api.emailjs.com/**", (route) => route.abort());
 });
 
@@ -22,6 +21,9 @@ for (const width of [320, 375, 768, 1440]) {
         await page.goto(`/#${path}`);
         await expect(page.locator("main h1")).toBeVisible();
         await expect(page.locator("main h1")).toHaveCount(1);
+        await expect(
+          page.locator("main .eyebrow, main .page-description"),
+        ).toHaveCount(0);
         await expect(page.locator("html")).toHaveAttribute(
           "lang",
           language === "pt" ? "pt-BR" : "en",
@@ -61,13 +63,9 @@ test("mobile menu navigates to a separate page and browser history works", async
 test("language persists across navigation and reload", async ({ page }) => {
   await page.goto("/#/sobre");
   await page.getByRole("button", { name: "EN", exact: true }).click();
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText(
-    "Technology with purpose.",
-  );
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("About me");
   await page.locator('#primary-navigation a[href="#/contato"]').click();
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText(
-    "Shall we build something together?",
-  );
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Contact");
   await page.reload();
   await expect(page.locator("html")).toHaveAttribute("lang", "en");
 });

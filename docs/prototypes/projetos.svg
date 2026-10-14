@@ -1,251 +1,240 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="3365" viewBox="0 0 1700 3365" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" role="img" aria-labelledby="title desc" height="2721.0" viewBox="0 0 1700 2721.0">
   <title id="title">Projetos — wireframe de média fidelidade</title>
-  <desc id="desc">Referência monocromática da página Projetos com filtros, linha do tempo, detalhes técnicos, áreas de captura e colaboração, em desktop e mobile.</desc>
-  <rect width="1700" height="3365" fill="#eceef1" />
-  <text x="32" y="30.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#353a42">PROJETOS · DESKTOP · 1200 px</text>
-  <rect x="32" y="48" width="1200" height="2121.5" rx="12" fill="#ffffff" stroke="#969da7" />
-  <text x="56" y="87.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c">AB.</text>
-  <text x="116" y="78.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#4e545d">Álvaro Barbosa</text>
-  <text x="116" y="94.0" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="500" fill="#4e545d">DESENVOLVEDOR</text>
-  <text x="472" y="83.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#4e545d">Início   Sobre mim   Projetos   Experiências   Contato</text>
+  <desc id="desc">Referências desktop e mobile da interface simplificada. Produzidas a partir da implementação; não são exportações do Figma.</desc>
+  <rect x="0" y="0" width="1700" height="2721.0" rx="0" fill="#eceef1" stroke="none" />
+  <text x="32" y="29" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#353a42" text-anchor="start">PROJETOS · DESKTOP · 1200 px</text>
+  <rect x="32" y="48" width="1200" height="1906.6400000000003" rx="12" fill="#ffffff" stroke="#969da7" />
+  <text x="56" y="87" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c" text-anchor="start">AB.</text>
+  <text x="432" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Início</text>
+  <text x="507" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Sobre mim</text>
+  <text x="620" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Projetos</text>
+  <text x="720" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Experiências</text>
+  <text x="860" y="84" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" fill="#505862" text-anchor="start">Contato</text>
   <rect x="1106" y="62" width="40" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
-  <text x="1116" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">PT</text>
-  <rect x="1152" y="62" width="40" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1162" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EN</text>
+  <text x="1116" y="82" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">PT</text>
+  <rect x="1152" y="62" width="40" height="29" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1162" y="82" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">EN</text>
   <line x1="32" y1="112" x2="1232" y2="112" stroke="#c9cdd3" />
-  <text x="1280" y="30.0" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#353a42">PROJETOS · MOBILE · 388 px</text>
-  <rect x="1280" y="48" width="388" height="3255.0" rx="12" fill="#ffffff" stroke="#969da7" />
-  <text x="1304" y="87.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c">AB.</text>
+  <text x="92" y="174" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700" fill="#252a32" text-anchor="start">Projetos</text>
+  <rect x="92" y="206" width="59" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="104" y="226" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Todos</text>
+  <rect x="159" y="206" width="87" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="171" y="226" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Front-end</text>
+  <rect x="254" y="206" width="94" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="266" y="226" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Full stack</text>
+  <text x="92" y="265" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">3 projetos</text>
+  <text x="93" y="300" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#505862" text-anchor="start">•</text>
+  <text x="109" y="300" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#505862" text-anchor="start">mar. 2026</text>
+  <rect x="92" y="320" width="1080" height="360.8800000000001" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="112" y="358" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#252a32" text-anchor="start">CineRecomendação</text>
+  <text x="112" y="395" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Interface acadêmica para compartilhar recomendações de</text>
+  <text x="112" y="417" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">filmes e séries, com tela de acesso e feed de cards.</text>
+  <rect x="112" y="448" width="59" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="124" y="468" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">HTML5</text>
+  <rect x="179" y="448" width="52" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="191" y="468" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">CSS3</text>
+  <rect x="112" y="496" width="136" height="42" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="126" y="522.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Ver código</text>
+  <rect x="654" y="340" width="498" height="278.88000000000005" rx="7" fill="#e7eaee" stroke="#bdc4cd" />
+  <line x1="668" y1="354" x2="1138" y2="604.8800000000001" stroke="#c0c7d0" />
+  <line x1="1138" y1="354" x2="668" y2="604.8800000000001" stroke="#c0c7d0" />
+  <rect x="654" y="630.8800000000001" width="66" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="666" y="650.8800000000001" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Acesso</text>
+  <rect x="728" y="630.8800000000001" width="115" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="740" y="650.8800000000001" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Recomendações</text>
+  <text x="93" y="718.8800000000001" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#505862" text-anchor="start">•</text>
+  <text x="109" y="718.8800000000001" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#505862" text-anchor="start">set. 2026</text>
+  <rect x="92" y="738.8800000000001" width="1080" height="360.8800000000001" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="112" y="776.8800000000001" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#252a32" text-anchor="start">Autenticação com Spring Boot</text>
+  <text x="112" y="813.8800000000001" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Aplicação acadêmica com cadastro, autenticação e</text>
+  <text x="112" y="835.8800000000001" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">recuperação de senha. Usa Spring Security para controle</text>
+  <text x="112" y="857.8800000000001" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">de acesso e H2 para persistência.</text>
+  <rect x="112" y="888.8800000000001" width="52" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="124" y="908.8800000000001" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Java</text>
+  <rect x="172" y="888.8800000000001" width="101" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="184" y="908.8800000000001" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Spring Boot</text>
+  <rect x="281" y="888.8800000000001" width="129" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="293" y="908.8800000000001" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Spring Security</text>
+  <rect x="418" y="888.8800000000001" width="87" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="430" y="908.8800000000001" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Thymeleaf</text>
+  <rect x="513" y="888.8800000000001" width="48" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="525" y="908.8800000000001" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">JPA</text>
+  <rect x="112" y="926.8800000000001" width="48" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="124" y="946.8800000000001" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">H2</text>
+  <rect x="168" y="926.8800000000001" width="66" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="180" y="946.8800000000001" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Gradle</text>
+  <rect x="112" y="974.8800000000001" width="136" height="42" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="126" y="1000.8800000000001" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Ver código</text>
+  <rect x="654" y="758.8800000000001" width="498" height="278.88000000000005" rx="7" fill="#e7eaee" stroke="#bdc4cd" />
+  <line x1="668" y1="772.8800000000001" x2="1138" y2="1023.7600000000002" stroke="#c0c7d0" />
+  <line x1="1138" y1="772.8800000000001" x2="668" y2="1023.7600000000002" stroke="#c0c7d0" />
+  <rect x="654" y="1049.7600000000002" width="59" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="666" y="1069.7600000000002" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Login</text>
+  <rect x="721" y="1049.7600000000002" width="80" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="733" y="1069.7600000000002" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Cadastro</text>
+  <text x="93" y="1137.7600000000002" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#505862" text-anchor="start">•</text>
+  <text x="109" y="1137.7600000000002" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#505862" text-anchor="start">out. 2026</text>
+  <rect x="92" y="1157.7600000000002" width="1080" height="360.8800000000001" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="112" y="1195.7600000000002" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#252a32" text-anchor="start">Portfólio profissional</text>
+  <text x="112" y="1232.7600000000002" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Portfólio bilíngue com páginas próprias, layout</text>
+  <text x="112" y="1254.7600000000002" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">responsivo, currículo em PDF e formulário de contato.</text>
+  <rect x="112" y="1285.7600000000002" width="59" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="124" y="1305.7600000000002" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">React</text>
+  <rect x="179" y="1285.7600000000002" width="52" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="191" y="1305.7600000000002" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Vite</text>
+  <rect x="239" y="1285.7600000000002" width="108" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="251" y="1305.7600000000002" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">React Router</text>
+  <rect x="355" y="1285.7600000000002" width="52" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="367" y="1305.7600000000002" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">CSS3</text>
+  <rect x="415" y="1285.7600000000002" width="73" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="427" y="1305.7600000000002" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">EmailJS</text>
+  <rect x="112" y="1333.7600000000002" width="136" height="42" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="126" y="1359.7600000000002" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Ver código</text>
+  <rect x="654" y="1177.7600000000002" width="498" height="278.88000000000005" rx="7" fill="#e7eaee" stroke="#bdc4cd" />
+  <line x1="668" y1="1191.7600000000002" x2="1138" y2="1442.6400000000003" stroke="#c0c7d0" />
+  <line x1="1138" y1="1191.7600000000002" x2="668" y2="1442.6400000000003" stroke="#c0c7d0" />
+  <rect x="654" y="1468.6400000000003" width="87" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="666" y="1488.6400000000003" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Sobre mim</text>
+  <rect x="749" y="1468.6400000000003" width="73" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="761" y="1488.6400000000003" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Contato</text>
+  <text x="92" y="1570.6400000000003" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#252a32" text-anchor="start">Em colaboração</text>
+  <rect x="92" y="1593.6400000000003" width="1080" height="253.0" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="112" y="1630.6400000000003" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#252a32" text-anchor="start">Castle Defenders</text>
+  <text x="112" y="1664.6400000000003" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Jogo em pixel art desenvolvido com Rafael Gomes no primeiro semestre de Engenharia de Software.</text>
+  <rect x="112" y="1697.6400000000003" width="66" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="124" y="1717.6400000000003" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Python</text>
+  <rect x="186" y="1697.6400000000003" width="66" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="198" y="1717.6400000000003" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Pygame</text>
+  <rect x="260" y="1697.6400000000003" width="80" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="272" y="1717.6400000000003" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Aseprite</text>
+  <rect x="348" y="1697.6400000000003" width="87" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="360" y="1717.6400000000003" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Pixel art</text>
+  <rect x="112" y="1745.6400000000003" width="208" height="42" rx="7" fill="#ffffff" stroke="#bfc5ce" />
+  <text x="126" y="1771.6400000000003" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42" text-anchor="start">GitHub do colaborador</text>
+  <text x="112" y="1814.6400000000003" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">Repositório indisponível para acesso público.</text>
+  <line x1="32" y1="1886.6400000000003" x2="1232" y2="1886.6400000000003" stroke="#c9cdd3" />
+  <text x="92" y="1926.6400000000003" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">© 2026 Álvaro Barbosa</text>
+  <text x="1280" y="29" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#353a42" text-anchor="start">PROJETOS · MOBILE · 388 px</text>
+  <rect x="1280" y="48" width="388" height="2597.0" rx="12" fill="#ffffff" stroke="#969da7" />
+  <text x="1304" y="87" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#20252c" text-anchor="start">AB.</text>
   <rect x="1517" y="62" width="37" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
-  <text x="1527" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">PT</text>
-  <rect x="1558" y="62" width="37" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1568" y="81.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EN</text>
-  <rect x="1607" y="60" width="38" height="38" rx="7" fill="#f4f5f6" stroke="#c2c7ce" />
+  <text x="1527" y="82" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">PT</text>
+  <rect x="1558" y="62" width="37" height="29" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1568" y="82" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">EN</text>
+  <rect x="1607" y="60" width="38" height="38" rx="7" fill="#ffffff" stroke="#c7cbd1" />
   <line x1="1617" y1="71" x2="1635" y2="71" stroke="#525a66" />
   <line x1="1617" y1="78" x2="1635" y2="78" stroke="#525a66" />
   <line x1="1617" y1="85" x2="1635" y2="85" stroke="#525a66" />
   <line x1="1280" y1="112" x2="1668" y2="112" stroke="#c9cdd3" />
-  <text x="92" y="163.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#4e545d">02 / PROJETOS</text>
-  <text x="92" y="215" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="#252a32">Do primeiro layout à</text>
-  <text x="92" y="274" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="700" fill="#252a32">aplicação completa.</text>
-  <text x="92" y="345" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#4e545d">Uma linha do tempo dos projetos que desenvolvi, das primeiras interfaces às aplicações com</text>
-  <text x="92" y="371" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="400" fill="#4e545d">autenticação e integração de serviços.</text>
-  <rect x="92" y="433" width="73" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
-  <text x="102" y="452.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Todos 3</text>
-  <rect x="172" y="433" width="101" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="182" y="452.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Front-end 2</text>
-  <rect x="280" y="433" width="108" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="290" y="452.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Full stack 1</text>
-  <text x="92" y="492.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">3 projetos · Do mais antigo ao mais recente</text>
-  <text x="92" y="529.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">mar. 2026</text>
-  <rect x="92" y="545" width="1080" height="335" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
-  <text x="112" y="577.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">FRONT-END</text>
-  <text x="112" y="611.0" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#252a32">CineRecomendação</text>
-  <text x="112" y="658.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Interface de uma comunidade para compartilhar recomendações de filmes e séries. Um</text>
-  <text x="112" y="680.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">projeto acadêmico para praticar HTML semântico, organização de conteúdo e</text>
-  <text x="112" y="702.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">estilização com CSS.</text>
-  <text x="112" y="731.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Tela de acesso com e-mail e senha</text>
-  <text x="112" y="757.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Feed com cards de recomendações</text>
-  <rect x="112" y="787.0" width="51" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="122" y="806.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">HTML5</text>
-  <rect x="169" y="787.0" width="45" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="179" y="806.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">CSS3</text>
-  <rect x="112" y="829.0" width="117" height="44" rx="7" fill="#353a42" stroke="#353a42" />
-  <text x="126" y="856.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Ver código</text>
-  <rect x="237" y="829.0" width="156" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="251" y="856.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Documentação</text>
-  <rect x="732" y="570" width="418" height="238" rx="8" fill="#edf0f2" stroke="#c1c6ce" />
-  <line x1="747" y1="585" x2="1135" y2="793" stroke="#c7ccd4" />
-  <line x1="1135" y1="585" x2="747" y2="793" stroke="#c7ccd4" />
-  <rect x="750" y="667.0" width="382" height="45" rx="6" fill="#f7f8f9" stroke="#edf0f2" />
-  <text x="761" y="695.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Captura da interface do projeto</text>
-  <text x="732" y="831.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Tela real · ampliar captura</text>
-  <text x="92" y="926.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">set. 2026</text>
-  <rect x="92" y="942" width="1080" height="335" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
-  <text x="112" y="974.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">FULL STACK</text>
-  <text x="112" y="1008.0" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#252a32">Autenticação com Spring Boot</text>
-  <text x="112" y="1055.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Aplicação acadêmica com autenticação, cadastro e recuperação de senha. Combina</text>
-  <text x="112" y="1077.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">interfaces com Thymeleaf, controle de acesso com Spring Security e persistência de</text>
-  <text x="112" y="1099.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">usuários no banco H2.</text>
-  <text x="112" y="1128.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Cadastro e autenticação de usuários</text>
-  <text x="112" y="1154.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Recuperação de senha com tokens</text>
-  <rect x="112" y="1184.0" width="45" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="122" y="1203.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Java</text>
-  <rect x="163" y="1184.0" width="87" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="173" y="1203.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Spring Boot</text>
-  <rect x="256" y="1184.0" width="111" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="266" y="1203.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Spring Security</text>
-  <rect x="373" y="1184.0" width="33" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="383" y="1203.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">H2</text>
-  <rect x="112" y="1226.0" width="117" height="44" rx="7" fill="#353a42" stroke="#353a42" />
-  <text x="126" y="1253.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Ver código</text>
-  <rect x="237" y="1226.0" width="156" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="251" y="1253.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Documentação</text>
-  <rect x="732" y="967" width="418" height="238" rx="8" fill="#edf0f2" stroke="#c1c6ce" />
-  <line x1="747" y1="982" x2="1135" y2="1190" stroke="#c7ccd4" />
-  <line x1="1135" y1="982" x2="747" y2="1190" stroke="#c7ccd4" />
-  <rect x="750" y="1064.0" width="382" height="45" rx="6" fill="#f7f8f9" stroke="#edf0f2" />
-  <text x="761" y="1092.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Captura da interface do projeto</text>
-  <text x="732" y="1228.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Tela real · ampliar captura</text>
-  <text x="92" y="1323.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">out. 2026</text>
-  <rect x="92" y="1339" width="1080" height="335" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
-  <text x="112" y="1371.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">FRONT-END</text>
-  <text x="112" y="1405.0" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#252a32">Portfólio profissional</text>
-  <text x="112" y="1452.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Este portfólio reúne minha apresentação, projetos e trajetória em páginas próprias.</text>
-  <text x="112" y="1474.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Desenvolvido com React e Vite, tem conteúdo em português e inglês, identidade visual</text>
-  <text x="112" y="1496.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">compartilhada e contato integrado ao EmailJS.</text>
-  <text x="112" y="1525.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Navegação independente e responsiva</text>
-  <text x="112" y="1551.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Contato e currículo em PDF</text>
-  <rect x="112" y="1581.0" width="51" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="122" y="1600.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">React</text>
-  <rect x="169" y="1581.0" width="45" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="179" y="1600.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Vite</text>
-  <rect x="220" y="1581.0" width="93" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="230" y="1600.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">React Router</text>
-  <rect x="319" y="1581.0" width="63" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="329" y="1600.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EmailJS</text>
-  <rect x="112" y="1623.0" width="117" height="44" rx="7" fill="#353a42" stroke="#353a42" />
-  <text x="126" y="1650.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Ver código</text>
-  <rect x="237" y="1623.0" width="156" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="251" y="1650.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Documentação</text>
-  <rect x="732" y="1364" width="418" height="238" rx="8" fill="#edf0f2" stroke="#c1c6ce" />
-  <line x1="747" y1="1379" x2="1135" y2="1587" stroke="#c7ccd4" />
-  <line x1="1135" y1="1379" x2="747" y2="1587" stroke="#c7ccd4" />
-  <rect x="750" y="1461.0" width="382" height="45" rx="6" fill="#f7f8f9" stroke="#edf0f2" />
-  <text x="761" y="1489.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Captura da interface do projeto</text>
-  <text x="732" y="1625.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Tela real · ampliar captura</text>
-  <text x="92" y="1719.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">EM COLABORAÇÃO</text>
-  <text x="92" y="1754.0" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="700" fill="#252a32">Construir também é trabalhar em equipe.</text>
-  <rect x="92" y="1805.5" width="1080" height="194" rx="10" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="114" y="1842.5" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#252a32">Castle Defenders</text>
-  <text x="114" y="1871.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Jogo desenvolvido em colaboração com Rafael Gomes durante o primeiro semestre de Engenharia de Software. Python,</text>
-  <text x="114" y="1893.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Pygame e identidade visual em pixel art.</text>
-  <rect x="114" y="1914.5" width="219" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="128" y="1941.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">GitHub do colaborador</text>
-  <text x="114" y="1968.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Repositório do jogo indisponível para acesso público.</text>
-  <line x1="32" y1="2049.5" x2="1232" y2="2049.5" stroke="#c9cdd3" />
-  <text x="62" y="2094.5" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#353a42">AB.</text>
-  <text x="62" y="2122.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
-  <text x="472" y="2109.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Sobre mim   Projetos   Experiências   Contato</text>
-  <text x="972" y="2109.5" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">© 2026 · Álvaro Barbosa</text>
-  <text x="1304" y="163.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#4e545d">02 / PROJETOS</text>
-  <text x="1304" y="207" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#252a32">Do primeiro layout</text>
-  <text x="1304" y="246" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#252a32">à aplicação</text>
-  <text x="1304" y="285" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700" fill="#252a32">completa.</text>
-  <text x="1304" y="336" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">Uma linha do tempo dos projetos que</text>
-  <text x="1304" y="359" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">desenvolvi, das primeiras interfaces às</text>
-  <text x="1304" y="382" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">aplicações com autenticação e integração de</text>
-  <text x="1304" y="405" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#4e545d">serviços.</text>
-  <rect x="1304" y="464" width="73" height="29" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
-  <text x="1314" y="483.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Todos 3</text>
-  <rect x="1384" y="464" width="101" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1394" y="483.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Front-end 2</text>
-  <rect x="1492" y="464" width="108" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1502" y="483.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Full stack 1</text>
-  <text x="1304" y="523.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">3 projetos · Do mais antigo ao mais recente</text>
-  <text x="1304" y="560.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">mar. 2026</text>
-  <rect x="1304" y="576" width="340" height="650" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
-  <text x="1324" y="608.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">FRONT-END</text>
-  <text x="1324" y="642.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">CineRecomendação</text>
-  <text x="1324" y="683.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Interface de uma comunidade para</text>
-  <text x="1324" y="705.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">compartilhar recomendações de filmes e</text>
-  <text x="1324" y="727.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">séries. Um projeto acadêmico para praticar</text>
-  <text x="1324" y="749.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">HTML semântico, organização de conteúdo e</text>
-  <text x="1324" y="771.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">estilização com CSS.</text>
-  <text x="1324" y="800.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Tela de acesso com e-mail e senha</text>
-  <text x="1324" y="826.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Feed com cards de recomendações</text>
-  <rect x="1324" y="856.0" width="51" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1334" y="875.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">HTML5</text>
-  <rect x="1381" y="856.0" width="45" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1391" y="875.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">CSS3</text>
-  <rect x="1324" y="898.0" width="117" height="44" rx="7" fill="#353a42" stroke="#353a42" />
-  <text x="1338" y="925.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Ver código</text>
-  <rect x="1449" y="898.0" width="156" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="1463" y="925.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Documentação</text>
-  <rect x="1324" y="961.0" width="300" height="145" rx="8" fill="#edf0f2" stroke="#c1c6ce" />
-  <line x1="1339" y1="976.0" x2="1609" y2="1091.0" stroke="#c7ccd4" />
-  <line x1="1609" y1="976.0" x2="1339" y2="1091.0" stroke="#c7ccd4" />
-  <rect x="1342" y="1011.5" width="264" height="45" rx="6" fill="#f7f8f9" stroke="#edf0f2" />
-  <text x="1353" y="1039.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Captura da interface do projeto</text>
-  <text x="1324" y="1129.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Tela real · ampliar captura</text>
-  <text x="1304" y="1272.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">set. 2026</text>
-  <rect x="1304" y="1288" width="340" height="650" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
-  <text x="1324" y="1320.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">FULL STACK</text>
-  <text x="1324" y="1354.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Autenticação com Spring</text>
-  <text x="1324" y="1387.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Boot</text>
-  <text x="1324" y="1428.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Aplicação acadêmica com autenticação,</text>
-  <text x="1324" y="1450.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">cadastro e recuperação de senha. Combina</text>
-  <text x="1324" y="1472.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">interfaces com Thymeleaf, controle de</text>
-  <text x="1324" y="1494.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">acesso com Spring Security e persistência</text>
-  <text x="1324" y="1516.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">de usuários no banco H2.</text>
-  <text x="1324" y="1545.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Cadastro e autenticação de usuários</text>
-  <text x="1324" y="1571.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Recuperação de senha com tokens</text>
-  <rect x="1324" y="1601.0" width="45" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1334" y="1620.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Java</text>
-  <rect x="1375" y="1601.0" width="87" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1385" y="1620.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Spring Boot</text>
-  <rect x="1468" y="1601.0" width="111" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1478" y="1620.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Spring Security</text>
-  <rect x="1585" y="1601.0" width="33" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1595" y="1620.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">H2</text>
-  <rect x="1324" y="1643.0" width="117" height="44" rx="7" fill="#353a42" stroke="#353a42" />
-  <text x="1338" y="1670.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Ver código</text>
-  <rect x="1449" y="1643.0" width="156" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="1463" y="1670.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Documentação</text>
-  <rect x="1324" y="1706.0" width="300" height="145" rx="8" fill="#edf0f2" stroke="#c1c6ce" />
-  <line x1="1339" y1="1721.0" x2="1609" y2="1836.0" stroke="#c7ccd4" />
-  <line x1="1609" y1="1721.0" x2="1339" y2="1836.0" stroke="#c7ccd4" />
-  <rect x="1342" y="1756.5" width="264" height="45" rx="6" fill="#f7f8f9" stroke="#edf0f2" />
-  <text x="1353" y="1784.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Captura da interface do projeto</text>
-  <text x="1324" y="1874.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Tela real · ampliar captura</text>
-  <text x="1304" y="1984.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#4e545d">out. 2026</text>
-  <rect x="1304" y="2000" width="340" height="650" rx="10" fill="#f6f7f8" stroke="#b7bbc2" />
-  <text x="1324" y="2032.0" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="700" fill="#4e545d">FRONT-END</text>
-  <text x="1324" y="2066.0" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#252a32">Portfólio profissional</text>
-  <text x="1324" y="2107.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Este portfólio reúne minha apresentação,</text>
-  <text x="1324" y="2129.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">projetos e trajetória em páginas próprias.</text>
-  <text x="1324" y="2151.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Desenvolvido com React e Vite, tem conteúdo</text>
-  <text x="1324" y="2173.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">em português e inglês, identidade visual</text>
-  <text x="1324" y="2195.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">compartilhada e contato integrado ao</text>
-  <text x="1324" y="2217.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">EmailJS.</text>
-  <text x="1324" y="2246.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Navegação independente e responsiva</text>
-  <text x="1324" y="2272.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">• Contato e currículo em PDF</text>
-  <rect x="1324" y="2302.0" width="51" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1334" y="2321.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">React</text>
-  <rect x="1381" y="2302.0" width="45" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1391" y="2321.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">Vite</text>
-  <rect x="1432" y="2302.0" width="93" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1442" y="2321.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">React Router</text>
-  <rect x="1531" y="2302.0" width="63" height="29" rx="7" fill="#f5f6f7" stroke="#c7cbd1" />
-  <text x="1541" y="2321.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#4e545d">EmailJS</text>
-  <rect x="1324" y="2344.0" width="117" height="44" rx="7" fill="#353a42" stroke="#353a42" />
-  <text x="1338" y="2371.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Ver código</text>
-  <rect x="1449" y="2344.0" width="156" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="1463" y="2371.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">Documentação</text>
-  <rect x="1324" y="2407.0" width="300" height="145" rx="8" fill="#edf0f2" stroke="#c1c6ce" />
-  <line x1="1339" y1="2422.0" x2="1609" y2="2537.0" stroke="#c7ccd4" />
-  <line x1="1609" y1="2422.0" x2="1339" y2="2537.0" stroke="#c7ccd4" />
-  <rect x="1342" y="2457.5" width="264" height="45" rx="6" fill="#f7f8f9" stroke="#edf0f2" />
-  <text x="1353" y="2485.5" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#4e545d">Captura da interface do projeto</text>
-  <text x="1324" y="2575.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Tela real · ampliar captura</text>
-  <text x="1304" y="2695.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" fill="#4e545d">EM COLABORAÇÃO</text>
-  <text x="1304" y="2730.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#252a32">Construir também é</text>
-  <text x="1304" y="2764.5" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#252a32">trabalhar em equipe.</text>
-  <rect x="1304" y="2810.0" width="340" height="250" rx="10" fill="#f5f6f7" stroke="#b7bbc2" />
-  <text x="1326" y="2847.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#252a32">Castle Defenders</text>
-  <text x="1326" y="2876.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Jogo desenvolvido em colaboração com</text>
-  <text x="1326" y="2898.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">Rafael Gomes durante o primeiro semestre</text>
-  <text x="1326" y="2920.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">de Engenharia de Software. Python, Pygame</text>
-  <text x="1326" y="2942.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="400" fill="#4e545d">e identidade visual em pixel art.</text>
-  <rect x="1326" y="2971.0" width="219" height="44" rx="7" fill="#ffffff" stroke="#aeb4bd" />
-  <text x="1340" y="2998.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42">GitHub do colaborador</text>
-  <text x="1326" y="3030.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Repositório do jogo indisponível para acesso</text>
-  <text x="1326" y="3046.5" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">público.</text>
-  <line x1="1280" y1="3103.0" x2="1668" y2="3103.0" stroke="#c9cdd3" />
-  <text x="1310" y="3148.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" fill="#353a42">AB.</text>
-  <text x="1310" y="3176.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#4e545d">Engenharia de Software · PUC Minas</text>
-  <text x="1310" y="3213.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">Sobre mim   Projetos   Experiências   Contato</text>
-  <text x="1310" y="3259.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="400" fill="#4e545d">© 2026 · Criado por Álvaro Barbosa</text>
-  <text x="32" y="3343" font-family="Inter, Arial, sans-serif" font-size="12" fill="#505862">Wireframe de referência criado em 14/10/2026 · Estrutura implementada · Não é exportação do Figma</text>
+  <text x="1304" y="174" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#252a32" text-anchor="start">Projetos</text>
+  <rect x="1304" y="206" width="59" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="1316" y="226" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Todos</text>
+  <rect x="1371" y="206" width="87" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1383" y="226" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Front-end</text>
+  <rect x="1466" y="206" width="94" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1478" y="226" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Full stack</text>
+  <text x="1304" y="265" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">3 projetos</text>
+  <text x="1305" y="300" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#505862" text-anchor="start">•</text>
+  <text x="1321" y="300" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#505862" text-anchor="start">mar. 2026</text>
+  <rect x="1304" y="320" width="340" height="514.0" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1324" y="358" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#252a32" text-anchor="start">CineRecomendação</text>
+  <text x="1324" y="395" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Interface acadêmica para</text>
+  <text x="1324" y="417" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">compartilhar recomendações de</text>
+  <text x="1324" y="439" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">filmes e séries, com tela de acesso</text>
+  <text x="1324" y="461" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">e feed de cards.</text>
+  <rect x="1324" y="492" width="59" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1336" y="512" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">HTML5</text>
+  <rect x="1391" y="492" width="52" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1403" y="512" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">CSS3</text>
+  <rect x="1324" y="540" width="136" height="42" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="1338" y="566.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Ver código</text>
+  <rect x="1324" y="604" width="300" height="168.00000000000003" rx="7" fill="#e7eaee" stroke="#bdc4cd" />
+  <line x1="1338" y1="618" x2="1610" y2="758.0" stroke="#c0c7d0" />
+  <line x1="1610" y1="618" x2="1338" y2="758.0" stroke="#c0c7d0" />
+  <rect x="1324" y="784.0" width="66" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="1336" y="804.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Acesso</text>
+  <rect x="1398" y="784.0" width="115" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1410" y="804.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Recomendações</text>
+  <text x="1305" y="872.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#505862" text-anchor="start">•</text>
+  <text x="1321" y="872.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#505862" text-anchor="start">set. 2026</text>
+  <rect x="1304" y="892.0" width="340" height="603.0" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1324" y="930.0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#252a32" text-anchor="start">Autenticação com Spring</text>
+  <text x="1324" y="959.0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#252a32" text-anchor="start">Boot</text>
+  <text x="1324" y="996.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Aplicação acadêmica com cadastro,</text>
+  <text x="1324" y="1018.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">autenticação e recuperação de</text>
+  <text x="1324" y="1040.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">senha. Usa Spring Security para</text>
+  <text x="1324" y="1062.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">controle de acesso e H2 para</text>
+  <text x="1324" y="1084.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">persistência.</text>
+  <rect x="1324" y="1115.0" width="52" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1336" y="1135.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Java</text>
+  <rect x="1384" y="1115.0" width="101" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1396" y="1135.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Spring Boot</text>
+  <rect x="1493" y="1115.0" width="129" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1505" y="1135.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Spring Security</text>
+  <rect x="1324" y="1153.0" width="87" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1336" y="1173.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Thymeleaf</text>
+  <rect x="1419" y="1153.0" width="48" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1431" y="1173.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">JPA</text>
+  <rect x="1475" y="1153.0" width="48" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1487" y="1173.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">H2</text>
+  <rect x="1531" y="1153.0" width="66" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1543" y="1173.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Gradle</text>
+  <rect x="1324" y="1201.0" width="136" height="42" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="1338" y="1227.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Ver código</text>
+  <rect x="1324" y="1265.0" width="300" height="168.00000000000003" rx="7" fill="#e7eaee" stroke="#bdc4cd" />
+  <line x1="1338" y1="1279.0" x2="1610" y2="1419.0" stroke="#c0c7d0" />
+  <line x1="1610" y1="1279.0" x2="1338" y2="1419.0" stroke="#c0c7d0" />
+  <rect x="1324" y="1445.0" width="59" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="1336" y="1465.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Login</text>
+  <rect x="1391" y="1445.0" width="80" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1403" y="1465.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Cadastro</text>
+  <text x="1305" y="1533.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#505862" text-anchor="start">•</text>
+  <text x="1321" y="1533.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#505862" text-anchor="start">out. 2026</text>
+  <rect x="1304" y="1553.0" width="340" height="552.0" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1324" y="1591.0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#252a32" text-anchor="start">Portfólio profissional</text>
+  <text x="1324" y="1628.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Portfólio bilíngue com páginas</text>
+  <text x="1324" y="1650.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">próprias, layout responsivo,</text>
+  <text x="1324" y="1672.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">currículo em PDF e formulário de</text>
+  <text x="1324" y="1694.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">contato.</text>
+  <rect x="1324" y="1725.0" width="59" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1336" y="1745.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">React</text>
+  <rect x="1391" y="1725.0" width="52" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1403" y="1745.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Vite</text>
+  <rect x="1451" y="1725.0" width="108" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1463" y="1745.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">React Router</text>
+  <rect x="1567" y="1725.0" width="52" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1579" y="1745.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">CSS3</text>
+  <rect x="1324" y="1763.0" width="73" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1336" y="1783.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">EmailJS</text>
+  <rect x="1324" y="1811.0" width="136" height="42" rx="7" fill="#353a42" stroke="#353a42" />
+  <text x="1338" y="1837.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="start">Ver código</text>
+  <rect x="1324" y="1875.0" width="300" height="168.00000000000003" rx="7" fill="#e7eaee" stroke="#bdc4cd" />
+  <line x1="1338" y1="1889.0" x2="1610" y2="2029.0" stroke="#c0c7d0" />
+  <line x1="1610" y1="1889.0" x2="1338" y2="2029.0" stroke="#c0c7d0" />
+  <rect x="1324" y="2055.0" width="87" height="30" rx="7" fill="#e1e4e8" stroke="#c7cbd1" />
+  <text x="1336" y="2075.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Sobre mim</text>
+  <rect x="1419" y="2055.0" width="73" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1431" y="2075.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Contato</text>
+  <text x="1304" y="2157.0" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700" fill="#252a32" text-anchor="start">Em colaboração</text>
+  <rect x="1304" y="2180.0" width="340" height="357.0" rx="8" fill="#f6f7f8" stroke="#c6cbd2" />
+  <text x="1324" y="2217.0" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" fill="#252a32" text-anchor="start">Castle Defenders</text>
+  <text x="1324" y="2251.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Jogo em pixel art desenvolvido com</text>
+  <text x="1324" y="2274.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">Rafael Gomes no primeiro semestre</text>
+  <text x="1324" y="2297.0" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#505862" text-anchor="start">de Engenharia de Software.</text>
+  <rect x="1324" y="2330.0" width="66" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1336" y="2350.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Python</text>
+  <rect x="1398" y="2330.0" width="66" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1410" y="2350.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Pygame</text>
+  <rect x="1472" y="2330.0" width="80" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1484" y="2350.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Aseprite</text>
+  <rect x="1324" y="2368.0" width="87" height="30" rx="7" fill="#ffffff" stroke="#c7cbd1" />
+  <text x="1336" y="2388.0" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" fill="#505862" text-anchor="start">Pixel art</text>
+  <rect x="1324" y="2416.0" width="208" height="42" rx="7" fill="#ffffff" stroke="#bfc5ce" />
+  <text x="1338" y="2442.0" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#353a42" text-anchor="start">GitHub do colaborador</text>
+  <text x="1324" y="2485.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">Repositório indisponível para acesso</text>
+  <text x="1324" y="2505.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">público.</text>
+  <line x1="1280" y1="2577.0" x2="1668" y2="2577.0" stroke="#c9cdd3" />
+  <text x="1304" y="2617.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">© 2026 Álvaro Barbosa</text>
+  <text x="32" y="2697.0" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#505862" text-anchor="start">Wireframe da interface simplificada · Referência para revisão e importação no Figma</text>
 </svg>

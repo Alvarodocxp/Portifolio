@@ -28,8 +28,6 @@ const labels = {
     skip: "Pular para o conteúdo",
     menu: "Abrir menu",
     close: "Fechar menu",
-    made: "Criado por Álvaro Barbosa",
-    degree: "Engenharia de Software · PUC Minas",
     missing: "Página não encontrada",
     back: "Voltar ao início",
   },
@@ -43,8 +41,6 @@ const labels = {
     skip: "Skip to content",
     menu: "Open menu",
     close: "Close menu",
-    made: "Created by Álvaro Barbosa",
-    degree: "Software Engineering · PUC Minas",
     missing: "Page not found",
     back: "Back to home",
   },
@@ -77,9 +73,7 @@ function Portfolio() {
     document.documentElement.lang = lang === "pt" ? "pt-BR" : "en";
     try {
       localStorage.setItem("portfolio-language", lang);
-    } catch {
-      /* Storage is optional. */
-    }
+    } catch {}
     const key = links.find(([path]) => path === location.pathname)?.[1];
     document.title = `${labels[lang][key] || labels[lang].missing} | Álvaro Barbosa`;
   }, [lang, location.pathname]);
@@ -122,9 +116,6 @@ function Portfolio() {
           >
             <span className="brand-mark">
               AB<span>.</span>
-            </span>
-            <span className="brand-name">
-              Álvaro Barbosa<span>DEVELOPER</span>
             </span>
           </Link>
           <nav
@@ -188,10 +179,7 @@ function Portfolio() {
         className="main-content"
       >
         <Routes>
-          <Route
-            path="/"
-            element={<HomePage lang={lang} onAsk={() => setAskOpen(true)} />}
-          />
+          <Route path="/" element={<HomePage lang={lang} />} />
           <Route path="/sobre" element={<AboutPage lang={lang} />} />
           <Route path="/projetos" element={<ProjectsPage lang={lang} />} />
           <Route
@@ -203,7 +191,6 @@ function Portfolio() {
             path="*"
             element={
               <section className="container page-header">
-                <p className="eyebrow">404</p>
                 <h1>{t.missing}</h1>
                 <Link className="button button-primary" to="/">
                   {t.back}
@@ -215,24 +202,7 @@ function Portfolio() {
       </main>
       <footer className="site-footer">
         <div className="container footer-inner">
-          <div>
-            <Link className="footer-brand" to="/">
-              AB<span>.</span>
-            </Link>
-            <p>{t.degree}</p>
-          </div>
-          <nav aria-label={lang === "pt" ? "Rodapé" : "Footer"}>
-            {links.slice(1).map(([path, key]) => (
-              <Link to={path} key={path}>
-                {t[key]}
-              </Link>
-            ))}
-          </nav>
-          <p className="copyright">
-            © {currentYear}
-            <br />
-            {t.made}
-          </p>
+          <p className="copyright">© {currentYear} Álvaro Barbosa</p>
         </div>
       </footer>
       <button
@@ -242,7 +212,6 @@ function Portfolio() {
         aria-label={t.ask}
       >
         <Icon name="bot" size={21} />
-        <span>{t.ask}</span>
       </button>
       {askOpen && (
         <Suspense fallback={null}>

@@ -1,4 +1,4 @@
-<!-- Adaptado do template de README do Prof. Dr. João Paulo Carneiro Aramuni. -->
+
 
 # Portfólio profissional · Álvaro Barbosa
 
@@ -67,7 +67,7 @@ flowchart LR
 
 O front-end é estático; o processamento de e-mail usa o serviço EmailJS e a conta conectada pelo proprietário. Não há banco de dados ou servidor próprio obrigatório para executar o portfólio. O formulário envia nome, endereço para resposta, assunto e mensagem; o destinatário permanece fixo no template da conta.
 
-A identidade visual mantém o tema escuro original, superfícies slate, teal, azul e pequenos detalhes laranja. Cores, espaçamentos, tipografia, raios, estados e foco estão centralizados em [src/styles/design-system.css](src/styles/design-system.css) e documentados em [DESIGN_SYSTEM.md](docs/DESIGN_SYSTEM.md). Os layouts se ajustam em 380, 760, 820 e 1050 px conforme o componente, com medidas fluidas entre esses pontos.
+A identidade visual mantém o tema escuro original, superfícies slate, teal, azul e pequenos detalhes laranja. A versão final usa títulos diretos e textos curtos, sem slogans, subtítulos de apresentação ou chamadas repetidas. Cores, espaçamentos, tipografia, raios, estados e foco estão centralizados em [src/styles/design-system.css](src/styles/design-system.css) e documentados em [DESIGN_SYSTEM.md](docs/DESIGN_SYSTEM.md). Os layouts se ajustam em 380, 760, 820 e 1050 px conforme o componente, com medidas fluidas entre esses pontos.
 
 As páginas têm landmarks semânticos, um `h1` por rota, labels nos campos, erros associados aos inputs, feedback acessível, navegação por teclado, foco visível, menu móvel com estado expandido e respeito a movimento reduzido. O diálogo do assistente contém o foco, fecha por Escape e devolve o foco ao botão de abertura.
 

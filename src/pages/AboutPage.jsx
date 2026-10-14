@@ -1,5 +1,4 @@
 import { Component, lazy, Suspense, useState } from "react";
-import { Link } from "react-router-dom";
 import Icon from "../components/Icon";
 import { SKILL_TOOLS } from "../data/alvaroProfile";
 
@@ -60,67 +59,28 @@ export default function AboutPage({ lang }) {
   return (
     <div className="container page-content">
       <header className="page-header">
-        <p className="eyebrow">01 / {pt ? "SOBRE MIM" : "ABOUT ME"}</p>
-        <h1>{pt ? "Tecnologia com propósito." : "Technology with purpose."}</h1>
-        <p className="page-description">
-          {pt
-            ? "Curiosidade para aprender. Dedicação para construir. Conheça um pouco da minha trajetória e de onde quero chegar."
-            : "Curiosity to learn. Dedication to build. Get to know my journey and where I want to go."}
-        </p>
+        <h1>{pt ? "Sobre mim" : "About me"}</h1>
       </header>
       <section className="about-intro-grid">
         <div className="about-story">
-          <h2>
-            {pt ? "Muito prazer, Álvaro." : "Nice to meet you. I’m Álvaro."}
-          </h2>
           <p>
             {pt
-              ? "Sou estudante do 2º período de Engenharia de Software na PUC Minas, campus Lourdes, e moro em Nova Lima, Minas Gerais. Minha formação começou em fevereiro de 2026, com conclusão prevista para dezembro de 2029."
-              : "I am a second-semester Software Engineering student at PUC Minas, Lourdes campus, based in Nova Lima, Minas Gerais, Brazil. I started my degree in February 2026 and expect to graduate in December 2029."}
+              ? "Sou estudante do 2º período de Engenharia de Software na PUC Minas, campus Lourdes, com conclusão prevista para 2029. Tenho interesse em desenvolvimento web, automação e bancos de dados."
+              : "I am a second-semester Software Engineering student at PUC Minas, Lourdes campus, graduating in 2029. My interests include web development, automation and databases."}
           </p>
           <p>
             {pt
-              ? "Tenho interesse em desenvolvimento web, arquitetura de software, automação e bancos de dados. Coloco meus conhecimentos em prática em projetos acadêmicos com Java e Spring Boot, interfaces com React, jogos com Python e Lua e ferramentas de análise com MQL5."
-              : "My interests include web development, software architecture, automation and databases. I put my knowledge into practice through academic Java and Spring Boot projects, React interfaces, Python and Lua games, and MQL5 analysis tools."}
+              ? "Busco meu primeiro estágio em desenvolvimento para aplicar meus conhecimentos e aprender com a equipe. Moro em Nova Lima, tenho inglês avançado e disponibilidade pela manhã ou à tarde."
+              : "I am looking for my first development internship to apply my knowledge and learn from the team. I live in Nova Lima, have advanced English skills and am available in the morning or afternoon."}
           </p>
-          <p>
-            {pt
-              ? "Busco meu primeiro estágio em desenvolvimento para contribuir com uma equipe, aplicar minha base técnica e evoluir ao lado de profissionais experientes. Tenho disponibilidade pela manhã ou à tarde, português nativo e inglês avançado."
-              : "I am looking for my first development internship to contribute to a team, apply my technical foundation and grow alongside experienced professionals. I am available in the morning or afternoon, speak native Portuguese and have advanced English skills."}
-          </p>
-          <Link to="/experiencias" className="text-link">
-            {pt ? "Conheça minha trajetória" : "Explore my journey"}
-            <Icon name="arrow" size={16} />
-          </Link>
         </div>
         <aside className="resume-card panel">
           <div className="resume-card-top">
             <span className="document-icon">
               <Icon name="book" size={28} />
             </span>
-            <span className="tag">PDF</span>
           </div>
-          <p className="eyebrow">{pt ? "MEU CURRÍCULO" : "MY RESUME"}</p>
-          <h2>Álvaro Barbosa</h2>
-          <p>
-            {pt ? "Engenharia de Software" : "Software Engineering"}
-            <br />
-            PUC Minas · Lourdes
-          </p>
-          <dl className="resume-facts">
-            <div>
-              <dt>{pt ? "Objetivo" : "Goal"}</dt>
-              <dd>
-                {pt
-                  ? "Primeiro estágio em desenvolvimento"
-                  : "First development internship"}
-              </dd>
-            </div>
-            <div>
-              <dt>{pt ? "Disponibilidade" : "Availability"}</dt>
-              <dd>{pt ? "Manhã ou tarde" : "Morning or afternoon"}</dd>
-            </div>
-          </dl>
+          <h2>{pt ? "Currículo" : "Resume"}</h2>
           <a
             href={cv}
             className="button button-primary"
@@ -128,7 +88,7 @@ export default function AboutPage({ lang }) {
             rel="noopener noreferrer"
           >
             <Icon name="eye" />
-            {pt ? "Visualizar currículo" : "View resume"}
+            {pt ? "Visualizar" : "View"}
           </a>
           <a
             href={cv}
@@ -142,14 +102,7 @@ export default function AboutPage({ lang }) {
       </section>
       <section className="skills-section">
         <div className="section-heading">
-          <div>
-            <p className="eyebrow">
-              {pt ? "MINHA CAIXA DE FERRAMENTAS" : "MY TOOLBOX"}
-            </p>
-            <h2>
-              {pt ? "Tecnologias & habilidades" : "Technologies & skills"}
-            </h2>
-          </div>
+          <h2>{pt ? "Tecnologias" : "Technologies"}</h2>
           <button
             className="button button-secondary"
             onClick={() => setShowGlobe(!showGlobe)}
@@ -212,7 +165,6 @@ export default function AboutPage({ lang }) {
                 </span>
                 <div>
                   <h3>{skill.name}</h3>
-                  <p>{categories.find(([id]) => id === skill.category)?.[1]}</p>
                 </div>
                 <Icon name="arrow" size={16} />
               </a>

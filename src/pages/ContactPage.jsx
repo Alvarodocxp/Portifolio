@@ -14,134 +14,84 @@ import "./ContactPage.css";
 
 const COPY = {
   pt: {
-    eyebrow: "04 / Contato",
-    title: "Vamos construir algo juntos?",
-    intro:
-      "Uma oportunidade de estágio, uma ideia ou uma conversa sobre tecnologia. Estou à disposição para o próximo passo.",
-    available: "Aberto ao primeiro estágio",
-    channels: "Escolha o seu canal",
-    channelText: "Prefere uma conversa direta? Você também me encontra aqui.",
+    title: "Contato",
+    channels: "Canais de contato",
     email: "E-mail",
-    phone: "Telefone / WhatsApp",
+    phone: "WhatsApp",
     location: "Localização",
-    locationText: "Nova Lima e Belo Horizonte · MG",
-    formTitle: "Deixe sua mensagem",
-    formText: "Todos os campos são obrigatórios. Respondo assim que possível.",
+    locationText: "Nova Lima · MG",
+    formTitle: "Formulário de contato",
     name: "Nome",
     subject: "Assunto",
     message: "Mensagem",
-    namePlaceholder: "Como posso chamar você?",
+    namePlaceholder: "",
     emailPlaceholder: "voce@exemplo.com",
-    subjectPlaceholder: "Sobre o que vamos conversar?",
-    messagePlaceholder: "Conte um pouco sobre a oportunidade ou a sua ideia…",
+    subjectPlaceholder: "",
+    messagePlaceholder: "",
     send: "Enviar mensagem",
-    sending: "Enviando mensagem…",
+    sending: "Enviando…",
     retry: "Tentar novamente",
-    success:
-      "Mensagem enviada! Obrigado pelo contato. Responderei pelo e-mail informado.",
-    privacy:
-      "Seu nome e e-mail serão usados para responder à sua mensagem. O envio é processado pelo EmailJS.",
-    direct: "Enviar pelo meu aplicativo de e-mail",
+    success: "Mensagem enviada. Obrigado!",
+    privacy: "Seus dados serão usados apenas para responder.",
+    direct: "Enviar por e-mail",
     copy: "Copiar e-mail",
-    copied: "E-mail copiado!",
-    copyFailed: "Não foi possível copiar. Use o link do e-mail acima.",
+    copied: "E-mail copiado",
+    copyFailed: "Não foi possível copiar. Use o link acima.",
     required: "Preencha este campo.",
-    tooLong: "O texto ultrapassa o limite deste campo.",
-    nameShort: "Informe um nome com pelo menos 2 caracteres.",
-    subjectShort: "Escreva um assunto com pelo menos 3 caracteres.",
-    messageShort: "Escreva uma mensagem com pelo menos 10 caracteres.",
-    emailInvalid: "Informe um e-mail válido, como voce@exemplo.com.",
-    validation: "Revise os campos indicados antes de enviar.",
-    configuration:
-      "O formulário está temporariamente indisponível. Você pode enviar sua mensagem pelo e-mail direto abaixo.",
-    service:
-      "O serviço de e-mail não conseguiu concluir o envio. Use o e-mail direto abaixo ou tente mais tarde.",
-    template:
-      "O serviço recusou a mensagem. Seu texto foi preservado; tente novamente ou use o e-mail direto abaixo.",
-    blocked:
-      "O serviço bloqueou este envio. Use o e-mail direto abaixo para entrar em contato.",
-    rateLimit:
-      "O serviço recebeu muitos envios. Aguarde um minuto antes de tentar novamente.",
-    network:
-      "Não foi possível conectar ao serviço. Confira sua conexão e tente novamente; sua mensagem foi preservada.",
-    sendFailed:
-      "Não foi possível confirmar o envio. Sua mensagem foi preservada. Tente novamente ou use o e-mail direto abaixo.",
+    tooLong: "O texto ultrapassa o limite.",
+    nameShort: "Informe pelo menos 2 caracteres.",
+    subjectShort: "Informe pelo menos 3 caracteres.",
+    messageShort: "Escreva pelo menos 10 caracteres.",
+    emailInvalid: "Informe um e-mail válido.",
+    validation: "Revise os campos indicados.",
+    configuration: "Envio indisponível. Use o e-mail abaixo.",
+    service: "Não foi possível enviar. Tente mais tarde.",
+    template: "Mensagem recusada. Tente novamente ou use o e-mail abaixo.",
+    blocked: "Envio bloqueado. Use o e-mail abaixo.",
+    rateLimit: "Aguarde um minuto e tente novamente.",
+    network: "Falha de conexão. Tente novamente.",
+    sendFailed: "Não foi possível confirmar o envio. Tente novamente.",
   },
   en: {
-    eyebrow: "04 / Contact",
-    title: "Shall we build something together?",
-    intro:
-      "An internship opportunity, an idea or a conversation about technology. I am ready for the next step.",
-    available: "Open to a first internship",
-    channels: "Choose your channel",
-    channelText: "Prefer a direct conversation? You can also find me here.",
+    title: "Contact",
+    channels: "Contact channels",
     email: "Email",
-    phone: "Phone / WhatsApp",
+    phone: "WhatsApp",
     location: "Location",
-    locationText: "Nova Lima and Belo Horizonte · Brazil",
-    formTitle: "Leave a message",
-    formText: "All fields are required. I will reply as soon as possible.",
+    locationText: "Nova Lima · Brazil",
+    formTitle: "Contact form",
     name: "Name",
     subject: "Subject",
     message: "Message",
-    namePlaceholder: "What should I call you?",
+    namePlaceholder: "",
     emailPlaceholder: "you@example.com",
-    subjectPlaceholder: "What should we discuss?",
-    messagePlaceholder: "Tell me about the opportunity or your idea…",
+    subjectPlaceholder: "",
+    messagePlaceholder: "",
     send: "Send message",
-    sending: "Sending message…",
+    sending: "Sending…",
     retry: "Try again",
-    success:
-      "Message sent! Thank you for getting in touch. I will reply to the email you provided.",
-    privacy:
-      "Your name and email will be used to reply to your message. EmailJS processes the submission.",
-    direct: "Send using my email app",
+    success: "Message sent. Thank you!",
+    privacy: "Your details will only be used to reply.",
+    direct: "Send by email",
     copy: "Copy email",
-    copied: "Email copied!",
-    copyFailed: "Could not copy the address. Use the email link above.",
+    copied: "Email copied",
+    copyFailed: "Could not copy. Use the link above.",
     required: "Fill in this field.",
-    tooLong: "This text exceeds the field limit.",
-    nameShort: "Enter a name with at least 2 characters.",
-    subjectShort: "Enter a subject with at least 3 characters.",
-    messageShort: "Write a message with at least 10 characters.",
-    emailInvalid: "Enter a valid email, such as you@example.com.",
-    validation: "Review the highlighted fields before sending.",
-    configuration:
-      "The form is temporarily unavailable. You can send your message using the direct email link below.",
-    service:
-      "The email service could not complete the request. Use direct email below or try again later.",
-    template:
-      "The service rejected this message. Your text has been preserved; try again or use direct email below.",
-    blocked:
-      "The service blocked this request. Use direct email below to get in touch.",
-    rateLimit:
-      "The service received too many requests. Wait a minute before trying again.",
-    network:
-      "Could not connect to the service. Check your connection and try again; your message has been preserved.",
-    sendFailed:
-      "The submission could not be confirmed. Your message has been preserved. Try again or use direct email below.",
+    tooLong: "This text exceeds the limit.",
+    nameShort: "Enter at least 2 characters.",
+    subjectShort: "Enter at least 3 characters.",
+    messageShort: "Write at least 10 characters.",
+    emailInvalid: "Enter a valid email.",
+    validation: "Review the highlighted fields.",
+    configuration: "Sending is unavailable. Use the email link below.",
+    service: "Could not send. Try again later.",
+    template: "Message rejected. Try again or use the email link below.",
+    blocked: "Sending was blocked. Use the email link below.",
+    rateLimit: "Wait a minute and try again.",
+    network: "Connection failed. Try again.",
+    sendFailed: "Could not confirm sending. Try again.",
   },
 };
-
-function ContactIcon({ name }) {
-  if (name === "check")
-    return (
-      <svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        aria-hidden="true"
-      >
-        <path d="m5 12 4 4L19 6" />
-      </svg>
-    );
-  return <Icon name={name === "pin" ? "mapPin" : name} size={20} />;
-}
 
 const EMPTY_CONTACT = { name: "", email: "", subject: "", message: "" };
 const CONFIG = getContactConfig(import.meta.env);
@@ -234,35 +184,23 @@ export default function ContactPage({ lang = "pt" }) {
       aria-labelledby="contact-title"
     >
       <header className="contact-page__heading page-header">
-        <p className="eyebrow">{t.eyebrow}</p>
         <h1 id="contact-title">{t.title}</h1>
-        <p className="page-description">{t.intro}</p>
       </header>
 
       <div className="contact-page__grid">
-        <aside
-          className="contact-page__channels"
-          aria-labelledby="contact-channels-title"
-        >
-          <span className="contact-page__availability">
-            <span />
-            {t.available}
-          </span>
-          <h2 id="contact-channels-title">{t.channels}</h2>
-          <p className="contact-page__channels-intro">{t.channelText}</p>
-
+        <aside className="contact-page__channels" aria-label={t.channels}>
           <a
             className="contact-page__channel"
             href={`mailto:${RESUME_DATA.email}`}
           >
             <span className="contact-page__icon">
-              <ContactIcon name="mail" />
+              <Icon name="mail" />
             </span>
             <span className="contact-page__channel-text">
               <span>{t.email}</span>
               <strong>{RESUME_DATA.email}</strong>
             </span>
-            <ContactIcon name="arrow" />
+            <Icon name="arrow" />
           </a>
           <a
             className="contact-page__channel"
@@ -271,17 +209,17 @@ export default function ContactPage({ lang = "pt" }) {
             rel="noopener noreferrer"
           >
             <span className="contact-page__icon">
-              <ContactIcon name="phone" />
+              <Icon name="phone" />
             </span>
             <span className="contact-page__channel-text">
               <span>{t.phone}</span>
               <strong>{RESUME_DATA.telefone}</strong>
             </span>
-            <ContactIcon name="arrow" />
+            <Icon name="arrow" />
           </a>
           <div className="contact-page__channel">
             <span className="contact-page__icon">
-              <ContactIcon name="pin" />
+              <Icon name="mapPin" />
             </span>
             <span className="contact-page__channel-text">
               <span>{t.location}</span>
@@ -295,14 +233,14 @@ export default function ContactPage({ lang = "pt" }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn <ContactIcon name="arrow" />
+              LinkedIn <Icon name="arrow" />
             </a>
             <a
               href={RESUME_DATA.github}
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub <ContactIcon name="arrow" />
+              GitHub <Icon name="arrow" />
             </a>
           </div>
           <button
@@ -310,7 +248,7 @@ export default function ContactPage({ lang = "pt" }) {
             type="button"
             onClick={copyEmail}
           >
-            <ContactIcon name={copyStatus === "copied" ? "check" : "copy"} />
+            <Icon name={copyStatus === "copied" ? "check" : "copy"} />
             {copyStatus === "copied" ? t.copied : t.copy}
           </button>
           <p className="contact-page__copy-status" role="status">
@@ -323,13 +261,8 @@ export default function ContactPage({ lang = "pt" }) {
           onSubmit={submit}
           noValidate
           aria-busy={sending}
-          aria-labelledby="contact-form-title"
+          aria-label={t.formTitle}
         >
-          <div className="contact-page__form-heading">
-            <h2 id="contact-form-title">{t.formTitle}</h2>
-            <p>{t.formText}</p>
-          </div>
-
           <div className="contact-page__row">
             <div className="contact-page__field">
               <label htmlFor="contact-name">
@@ -403,7 +336,7 @@ export default function ContactPage({ lang = "pt" }) {
                 className="contact-page__status contact-page__status--success"
                 role="status"
               >
-                <ContactIcon name="check" />
+                <Icon name="check" />
                 {t.success}
               </p>
             )}
@@ -415,7 +348,7 @@ export default function ContactPage({ lang = "pt" }) {
                 <p>{t[failure] || t.sendFailed}</p>
                 {failure !== "validation" && (
                   <a href={directEmail}>
-                    {t.direct} <ContactIcon name="arrow" />
+                    {t.direct} <Icon name="arrow" />
                   </a>
                 )}
               </div>
@@ -431,7 +364,7 @@ export default function ContactPage({ lang = "pt" }) {
             {sending ? (
               <span className="contact-page__spinner" aria-hidden="true" />
             ) : (
-              <ContactIcon name="send" />
+              <Icon name="send" />
             )}
             {sending
               ? t.sending

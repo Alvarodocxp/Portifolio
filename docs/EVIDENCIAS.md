@@ -80,3 +80,7 @@ O build com `--base=/Portifolio/` foi validado com as cinco rotas e recarregamen
 5. **Apresentação:** demonstrar as páginas nos dois idiomas, explicar a separação entre interface React e serviço EmailJS, mostrar os filtros da timeline e as capturas reais, e explicar os tokens e regras de responsividade do design system.
 
 As pendências deste documento devem ser atualizadas após a validação final. Nenhuma publicação, recebimento de e-mail ou correspondência com o Figma deve ser marcada como concluída sem a respectiva evidência.
+
+## Revisão de conteúdo e layout
+
+A revisão final reduz os textos, retira slogans e subtítulos e elimina chamadas repetidas. Preserva as cinco rotas, a apresentação bilíngue, a cronologia e capturas dos projetos, instituições e períodos das experiências, currículo e contato. Os comentários foram removidos do código com análise de JavaScript/JSX e CSS; URLs e parâmetros de envio foram preservados. Build, lint, 7 testes unitários e 17 testes de navegador passaram, incluindo ausência de subtítulos nas páginas e responsividade em quatro larguras. As capturas do portfólio foram atualizadas para esta versão.
