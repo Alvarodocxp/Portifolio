@@ -11,7 +11,7 @@ export default function HomePage({ lang }) {
       <div className="hero-copy">
         <p className="availability">
           <span />
-          {pt ? "Aberto a oportunidades" : "Open to oportunities"}
+          {pt ? "Aberto a oportunidades" : "Open to opportunities"}
         </p>
         <h1>
           Álvaro

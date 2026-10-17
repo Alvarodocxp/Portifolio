@@ -5,6 +5,7 @@
 }
 html {
   font-size: 16px;
+  overflow-x: clip;
 }
 body {
   margin: 0;
@@ -19,6 +20,7 @@ body {
   background: #08090c;
   color: #f5f7fb;
   line-height: 1.65;
+  overflow-x: clip;
 }
 h1,
 h2,
